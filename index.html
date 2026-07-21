@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creator Performance Intelligence Dashboard — Fajar Indah Otomotif</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+<style>
+:root{ color-scheme: dark; }
+*{ box-sizing:border-box; }
+body{ margin:0; background:#0a0d14; color:#e7e9f0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size:14px; line-height:1.5; }
+#app{ max-width:1280px; margin:0 auto; padding:18px 20px 60px; }
+header.top{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; padding-bottom:14px; margin-bottom:16px; border-bottom:1px solid #1e2330; }
+header.top h1{ font-size:19px; margin:0 0 4px; font-weight:700; letter-spacing:.2px; }
+header.top .sub{ color:#8a90a6; font-size:12.5px; }
+.btn{ background:#171c28; border:1px solid #2a3040; color:#e7e9f0; padding:8px 14px; border-radius:8px; font-size:12.5px; cursor:pointer; }
+.btn:hover{ background:#1e2432; }
+.updated-badge{ font-size:11px; color:#6b7086; margin-top:4px; }
+nav.tabs{ display:flex; gap:6px; flex-wrap:wrap; margin-bottom:18px; }
+.tabbtn{ background:#12151f; border:1px solid #232838; color:#aab0c2; padding:9px 16px; border-radius:999px; font-size:13px; cursor:pointer; font-weight:600; }
+.tabbtn.active{ background:linear-gradient(135deg,#4f8cff,#7c5cff); color:#fff; border-color:transparent; }
+.tabpanel{ display:none; }
+.tabpanel.active{ display:block; }
+.jumpchips{ display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap; }
+.jumpchip{ font-size:11.5px; padding:5px 12px; border-radius:999px; border:1px solid #2a3040; color:#aab0c2; text-decoration:none; cursor:pointer; background:#12151f; }
+.jumpchip:hover{ color:#fff; border-color:#4f8cff; }
+section.acc{ border:1px solid #1e2330; border-radius:14px; padding:18px 18px 20px; margin-bottom:22px; background:#0e121c; scroll-margin-top:14px; }
+.acc-header{ display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.dot{ width:10px; height:10px; border-radius:50%; flex:0 0 auto; }
+.dot.ig{ background:linear-gradient(135deg,#f58529,#dd2a7b,#8134af); }
+.dot.tt1{ background:linear-gradient(135deg,#25F4EE,#111); }
+.dot.tt2{ background:linear-gradient(135deg,#FE2C55,#111); }
+.acc-header h2{ font-size:15.5px; margin:0; }
+.acc-header .handle{ color:#8a90a6; font-size:12px; }
+.pill{ font-size:10.5px; padding:2px 9px; border-radius:999px; background:#1c2130; color:#9aa2ba; border:1px solid #262c3d; margin-left:auto; }
+.kpi-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:16px; }
+.kpi{ background:#131826; border:1px solid #1f2534; border-radius:10px; padding:11px 13px; }
+.kpi .lbl{ font-size:10.5px; color:#8a90a6; text-transform:uppercase; letter-spacing:.4px; margin-bottom:4px; }
+.kpi .val{ font-size:18px; font-weight:700; }
+.kpi .g{ margin-top:5px; }
+.badge{ font-size:11px; font-weight:700; padding:1px 7px; border-radius:6px; display:inline-block; }
+.badge.up{ background:#10301f; color:#3ddc84; }
+.badge.down{ background:#361417; color:#ff6b6b; }
+.badge.neutral{ background:#242938; color:#8a90a6; }
+.callout{ border:1px solid #2a3040; border-radius:10px; padding:12px 14px; margin-bottom:14px; background:#12172380; }
+.callout.viral{ background:linear-gradient(90deg,#1a1030,#0e121c); border-color:#4a2e8a; }
+.callout.bench-up{ border-color:#1c4b34; background:#0f1d17; }
+.callout.bench-down{ border-color:#4b1c22; background:#1d0f11; }
+.callout h4{ margin:0 0 6px; font-size:12.5px; }
+.callout a{ color:#7fb2ff; }
+.grid2{ display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; margin-bottom:6px; }
+.barlist .row{ display:flex; align-items:center; gap:8px; margin-bottom:6px; font-size:12px; }
+.barlist .row .lab{ width:92px; flex:0 0 auto; color:#c3c8d8; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.barlist .row .track{ flex:1; background:#1a2030; border-radius:5px; height:8px; overflow:hidden; }
+.barlist .row .fill{ height:100%; border-radius:5px; background:linear-gradient(90deg,#4f8cff,#7c5cff); }
+.barlist .row .pctval{ width:44px; text-align:right; color:#8a90a6; font-size:11px; }
+h3.stitle{ font-size:12.5px; color:#c3c8d8; margin:0 0 10px; text-transform:uppercase; letter-spacing:.4px; }
+table.dtable{ width:100%; border-collapse:collapse; font-size:12px; margin-bottom:6px; }
+table.dtable th{ text-align:left; color:#8a90a6; font-weight:600; padding:6px 8px; border-bottom:1px solid #232838; font-size:10.5px; text-transform:uppercase; }
+table.dtable td{ padding:7px 8px; border-bottom:1px solid #171c28; color:#dde0ea; }
+table.dtable tr:hover td{ background:#12172a; }
+table.dtable a{ color:#7fb2ff; text-decoration:none; }
+.tag{ font-size:9.5px; padding:2px 6px; border-radius:5px; font-weight:700; }
+.tag.REELS{ background:#2a1440; color:#d199ff; }
+.tag.CAROUSEL_ALBUM{ background:#142a30; color:#7fd8e8; }
+.tag.IMAGE{ background:#242030; color:#b8b0e0; }
+.tag.VIDEO{ background:#302014; color:#f0b880; }
+.chart-wrap{ height:230px; margin-bottom:10px; position:relative; }
+.chart-wrap.small{ height:190px; }
+.two-col{ display:grid; grid-template-columns:1.4fr 1fr; gap:16px; }
+@media(max-width:820px){ .two-col{ grid-template-columns:1fr; } }
+.insight-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-bottom:14px; }
+.insight-card{ border-radius:10px; padding:13px 14px; border:1px solid; }
+.insight-card.bitter{ border-color:#4b2b1c; background:#1d130f; }
+.insight-card.mistake{ border-color:#4b1c22; background:#1d0f11; }
+.insight-card.opportunity{ border-color:#1c4b34; background:#0f1d17; }
+.insight-card h5{ margin:0 0 8px; font-size:11.5px; text-transform:uppercase; letter-spacing:.4px; }
+.insight-card.bitter h5{ color:#f0a860; }
+.insight-card.mistake h5{ color:#ff6b6b; }
+.insight-card.opportunity h5{ color:#3ddc84; }
+.insight-card ul{ margin:0; padding-left:16px; }
+.insight-card li{ margin-bottom:7px; font-size:12.3px; color:#d3d7e4; }
+.swot-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:14px 0; }
+@media(max-width:600px){ .swot-grid{ grid-template-columns:1fr; } }
+.swot-box{ border-radius:10px; padding:12px 13px; border:1px solid #232838; background:#131826; }
+.swot-box h5{ margin:0 0 8px; font-size:12px; }
+.swot-box.S h5{ color:#3ddc84; } .swot-box.W h5{ color:#ff6b6b; } .swot-box.O h5{ color:#7fb2ff; } .swot-box.T h5{ color:#f0a860; }
+.swot-box ul{ margin:0; padding-left:16px; font-size:12px; color:#c3c8d8; }
+.swot-box li{ margin-bottom:5px; }
+.formula-box{ font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#0e1320; border:1px solid #232838; border-radius:8px; padding:10px 12px; margin-bottom:14px; color:#9adba0; }
+.kesimpulan{ border:1px solid #2a3040; border-radius:12px; padding:16px 18px; background:linear-gradient(135deg,#101527,#0c1a16); margin-top:6px; }
+.kesimpulan h3{ margin-top:0; font-size:14px; }
+.kesimpulan p{ font-size:12.8px; color:#d3d7e4; margin:8px 0; }
+#loadingOverlay{ position:fixed; inset:0; background:#0a0d14ee; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:14px; z-index:99; }
+.spinner{ width:34px; height:34px; border-radius:50%; border:3px solid #232838; border-top-color:#4f8cff; animation:spin 0.8s linear infinite; }
+@keyframes spin{ to{ transform:rotate(360deg); } }
+#errBanner{ display:none; background:#361417; border:1px solid #5a2530; color:#ffb3b3; padding:10px 14px; border-radius:8px; margin-bottom:14px; font-size:12.5px; }
+.small-note{ font-size:11px; color:#6b7086; margin-top:4px; }
+footer.foot{ margin-top:30px; padding-top:14px; border-top:1px solid #1e2330; color:#565c72; font-size:11px; }
+</style>
+</head>
+<body>
+<div id="loadingOverlay"><div class="spinner"></div><div style="color:#8a90a6;font-size:12.5px;">Memuat data.json…</div></div>
+<div id="app">
+  <header class="top">
+    <div>
+      <h1>Creator Performance Intelligence Dashboard</h1>
+      <div class="sub">Fajar Indah Otomotif · Instagram &amp; TikTok (dipisah per akun) · <span id="periodLabel">memuat periode…</span></div>
+      <div class="updated-badge" id="updatedBadge"></div>
+    </div>
+    <button class="btn" onclick="location.reload()">↻ Muat ulang halaman</button>
+  </header>
+
+  <div id="errBanner"></div>
+
+  <nav class="tabs">
+    <button class="tabbtn active" id="btn-tab-ringkasan" onclick="showTab('tab-ringkasan')">Ringkasan</button>
+    <button class="tabbtn" id="btn-tab-konten" onclick="showTab('tab-konten')">Konten Terbaik</button>
+    <button class="tabbtn" id="btn-tab-pola" onclick="showTab('tab-pola')">Pola &amp; Tren</button>
+    <button class="tabbtn" id="btn-tab-skor" onclick="showTab('tab-skor')">Skor</button>
+    <button class="tabbtn" id="btn-tab-blind" onclick="showTab('tab-blind')">Blind Spots</button>
+  </nav>
+
+  <div class="tabpanel active" id="tab-ringkasan">
+    <div class="jumpchips">
+      <a class="jumpchip" href="#ig-ringkasan">📷 Instagram</a>
+      <a class="jumpchip" href="#tt1-ringkasan">🎵 TikTok 1 — fajarindahotomotif</a>
+      <a class="jumpchip" href="#tt2-ringkasan">🎵 TikTok 2 — fiotomotif</a>
+    </div>
+    <div id="ringkasanContainer"></div>
+  </div>
+
+  <div class="tabpanel" id="tab-konten">
+    <div class="jumpchips">
+      <a class="jumpchip" href="#ig-konten">📷 Instagram</a>
+      <a class="jumpchip" href="#tt1-konten">🎵 TikTok 1</a>
+      <a class="jumpchip" href="#tt2-konten">🎵 TikTok 2</a>
+    </div>
+    <div id="kontenContainer"></div>
+  </div>
+
+  <div class="tabpanel" id="tab-pola">
+    <div class="jumpchips">
+      <a class="jumpchip" href="#ig-pola">📷 Instagram</a>
+      <a class="jumpchip" href="#tt1-pola">🎵 TikTok 1</a>
+      <a class="jumpchip" href="#tt2-pola">🎵 TikTok 2</a>
+    </div>
+    <div id="polaContainer"></div>
+  </div>
+
+  <div class="tabpanel" id="tab-skor">
+    <div class="jumpchips">
+      <a class="jumpchip" href="#ig-skor">📷 Instagram</a>
+      <a class="jumpchip" href="#tt1-skor">🎵 TikTok 1</a>
+      <a class="jumpchip" href="#tt2-skor">🎵 TikTok 2</a>
+    </div>
+    <div id="skorContainer"></div>
+  </div>
+
+  <div class="tabpanel" id="tab-blind">
+    <div class="jumpchips">
+      <a class="jumpchip" href="#ig-blind">📷 Instagram</a>
+      <a class="jumpchip" href="#tt1-blind">🎵 TikTok 1</a>
+      <a class="jumpchip" href="#tt2-blind">🎵 TikTok 2</a>
+      <a class="jumpchip" href="#kesimpulan-final">📌 Kesimpulan</a>
+    </div>
+    <div id="blindContainer"></div>
+  </div>
+
+  <footer class="foot">Data ditarik dari Windsor.ai (connectors.windsor.ai) via GitHub Actions terjadwal, disimpan sebagai <code>data.json</code> statis. Ini bukan koneksi live per-kunjungan — cek badge "Terakhir diperbarui" di atas untuk tahu usia data.</footer>
+</div>
+
+<script>
+const BENCH = { instagram: 0.31, tiktok: 1.37 };
+
+function num(n){ return (n===null||n===undefined||isNaN(n)) ? 0 : n; }
+function fmtInt(n){ return Math.round(num(n)).toLocaleString('id-ID'); }
+function fmtPct(n, digits){ digits = digits===undefined?1:digits; if(n===null||n===undefined) return '–'; const s = n>=0?'+':''; return s+n.toFixed(digits)+'%'; }
+function fmtPts(n, digits){ digits = digits===undefined?2:digits; if(n===null||n===undefined) return '–'; const s = n>=0?'+':''; return s+n.toFixed(digits); }
+function growthBadge(n){ if(n===null||n===undefined) return '<span class="badge neutral">N/A</span>'; const up = n>=0; return '<span class="badge '+(up?'up':'down')+'">'+(up?'▲':'▼')+' '+Math.abs(n).toFixed(1)+'%</span>'; }
+const WD_LABELS = ['Senin','Selasa','Rabu','Kamis',"Jumat",'Sabtu','Minggu'];
+
+/* ---------------- RENDER HELPERS (identik dengan versi Cowork) ---------------- */
+function barListHtml(dist, limit){
+  limit = limit || 6;
+  return '<div class="barlist">' + dist.slice(0,limit).map(function(d){
+    return '<div class="row"><div class="lab" title="'+d.label+'">'+d.label+'</div><div class="track"><div class="fill" style="width:'+Math.min(100,d.pct)+'%"></div></div><div class="pctval">'+d.pct.toFixed(1)+'%</div></div>';
+  }).join('') + '</div>';
+}
+
+function kpiCard(lbl, val, growthPct, sub){
+  return '<div class="kpi"><div class="lbl">'+lbl+'</div><div class="val">'+val+'</div><div class="g">'+(growthPct!==undefined? growthBadge(growthPct):'')+(sub? ' <span class="small-note">'+sub+'</span>':'')+'</div></div>';
+}
+
+function benchmarkCallout(acc){
+  const above = acc.m.er >= acc.m.benchmark;
+  return '<div class="callout '+(above?'bench-up':'bench-down')+'">'+
+    '<h4>Engagement Rate vs Benchmark Industri Otomotif</h4>'+
+    '<div>ER bulan ini: <b>'+acc.m.er.toFixed(2)+'%</b> — Benchmark industri ('+(acc.platform==='instagram'?'Instagram':'TikTok')+' otomotif): <b>'+acc.m.benchmark.toFixed(2)+'%</b></div>'+
+    '<div style="margin-top:4px;">Selisih: <b>'+fmtPts(acc.m.vsBenchmarkPts)+' poin</b> — '+(above? 'di ATAS rata-rata industri ✅' : 'di BAWAH rata-rata industri ⚠️')+
+    ' · ER bulan lalu: '+acc.m.erPrev.toFixed(2)+'% ('+growthBadge(acc.m.er-acc.m.erPrev)+' poin)</div>'+
+  '</div>';
+}
+
+function viralCallout(acc){
+  const url = acc.platform==='instagram' ? acc.viral.media_permalink : acc.viral.video_share_url;
+  const views = acc.platform==='instagram' ? acc.viral.media_views : acc.viral.video_views_count;
+  const likes = acc.platform==='instagram' ? acc.viral.media_like_count : acc.viral.video_likes;
+  const save = acc.platform==='instagram' ? acc.viral.media_saved : acc.viral.video_favorites;
+  const share = acc.platform==='instagram' ? acc.viral.media_shares : acc.viral.video_shares;
+  return '<div class="callout viral"><h4>🚀 Post/Video Viral Terbesar Bulan Ini</h4>'+
+    '<div>Skor: <b>'+fmtInt(acc.m.viralScore)+'</b> · Views: <b>'+fmtInt(views)+'</b> · Likes: '+fmtInt(likes)+' · Saves/Fav: '+fmtInt(save)+' · Shares: '+fmtInt(share)+'</div>'+
+    (url? '<div style="margin-top:4px;"><a href="'+url+'" target="_blank" rel="noopener">Lihat konten →</a></div>':'')+
+  '</div>';
+}
+
+function renderAccountRingkasan(acc){
+  const isIG = acc.platform==='instagram';
+  let html = '<section class="acc" id="'+acc.key+'-ringkasan">';
+  html += '<div class="acc-header"><span class="dot '+acc.color+'"></span><h2>'+acc.label+'</h2><span class="handle">'+acc.handle+'</span><span class="pill">'+fmtInt(acc.followersTotal)+' followers</span></div>';
+  html += '<div class="kpi-grid">';
+  html += kpiCard('Total Views', fmtInt(acc.m.views), acc.m.viewsGrowth);
+  html += kpiCard(isIG?'Total Reach':'Reach Unik (Views Unik)', fmtInt(acc.m.reach), acc.m.reachGrowth);
+  html += kpiCard('Total Likes', fmtInt(acc.m.likes), acc.m.likesGrowth);
+  html += kpiCard(isIG?'Total Saves':'Total Favorit', fmtInt(acc.m.savesOrFav), acc.m.savesGrowth);
+  html += kpiCard('Total Shares', fmtInt(acc.m.shares), acc.m.sharesGrowth);
+  html += kpiCard('Total Comments', fmtInt(acc.m.comments), acc.m.commentsGrowth);
+  html += kpiCard(isIG?'Followers Baru':'Pertumbuhan Followers (net)', (acc.m.newFollowers>=0?'+':'')+fmtInt(acc.m.newFollowers), acc.m.newFollowersGrowth, isIG? 'akumulasi harian':'awal→akhir periode');
+  html += kpiCard('Avg. View / Hari', fmtInt(acc.m.avgViewPerDay));
+  html += '</div>';
+  html += viralCallout(acc);
+  html += benchmarkCallout(acc);
+  html += '<div class="grid2">';
+  html += '<div><h3 class="stitle">Target Audience — Usia</h3>'+barListHtml(acc.ageDist,7)+'</div>';
+  html += '<div><h3 class="stitle">Target Audience — Jenis Kelamin</h3>'+barListHtml(acc.genderDist,4)+'</div>';
+  html += '</div>';
+  html += '<div class="grid2" style="margin-top:14px;">';
+  if(isIG){
+    html += '<div><h3 class="stitle">Jangkauan — Provinsi (dari data kota)</h3>'+barListHtml(acc.provDist,7)+'</div>';
+  }
+  html += '<div><h3 class="stitle">Jangkauan — Negara</h3>'+barListHtml(acc.countryDist,7)+'</div>';
+  html += '</div>';
+  html += '</section>';
+  return html;
+}
+
+function contentRow(idx, acc, item){
+  const isIG = acc.platform==='instagram';
+  const url = isIG? item.media_permalink : item.video_share_url;
+  const date = isIG? (item.timestamp||'').slice(0,10) : (item.video_create_datetime||'').slice(0,10);
+  const views = isIG? item.media_views : item.video_views_count;
+  const likes = isIG? item.media_like_count : item.video_likes;
+  const save = isIG? item.media_saved : item.video_favorites;
+  const share = isIG? item.media_shares : item.video_shares;
+  const type = isIG? item.media_type : (num(item.video_duration)<20?'<20dtk': num(item.video_duration)<=40?'20-40dtk':'>40dtk');
+  const tagClass = isIG? item.media_type : 'VIDEO';
+  return '<tr><td>'+idx+'</td><td>'+date+'</td><td><span class="tag '+tagClass+'">'+type+'</span></td><td>'+fmtInt(views)+'</td><td>'+fmtInt(likes)+'</td><td>'+fmtInt(save)+'</td><td>'+fmtInt(share)+'</td><td><b>'+fmtInt(item.score)+'</b></td><td>'+(url?'<a href="'+url+'" target="_blank" rel="noopener">buka ↗</a>':'-')+'</td></tr>';
+}
+
+function renderAccountKonten(acc){
+  let html = '<section class="acc" id="'+acc.key+'-konten">';
+  html += '<div class="acc-header"><span class="dot '+acc.color+'"></span><h2>'+acc.label+'</h2><span class="handle">'+acc.handle+'</span></div>';
+  html += '<h3 class="stitle">🏆 TOP 10 Konten (skor tertinggi)</h3>';
+  html += '<table class="dtable"><thead><tr><th>#</th><th>Tanggal</th><th>Tipe</th><th>Views</th><th>Likes</th><th>'+(acc.platform==='instagram'?'Saves':'Fav')+'</th><th>Shares</th><th>Skor</th><th></th></tr></thead><tbody>';
+  acc.top10.forEach(function(item,i){ html += contentRow(i+1, acc, item); });
+  html += '</tbody></table>';
+  html += '<h3 class="stitle" style="margin-top:18px;">🔻 BOTTOM 10 Konten (skor terendah)</h3>';
+  html += '<table class="dtable"><thead><tr><th>#</th><th>Tanggal</th><th>Tipe</th><th>Views</th><th>Likes</th><th>'+(acc.platform==='instagram'?'Saves':'Fav')+'</th><th>Shares</th><th>Skor</th><th></th></tr></thead><tbody>';
+  acc.bottom10.forEach(function(item,i){ html += contentRow(i+1, acc, item); });
+  html += '</tbody></table>';
+  html += '</section>';
+  return html;
+}
+
+function renderAccountPola(acc){
+  const isIG = acc.platform==='instagram';
+  let html = '<section class="acc" id="'+acc.key+'-pola">';
+  html += '<div class="acc-header"><span class="dot '+acc.color+'"></span><h2>'+acc.label+'</h2><span class="handle">'+acc.handle+'</span></div>';
+  html += '<div class="two-col">';
+  html += '<div><h3 class="stitle">Tren Views Harian: Bulan Ini vs Bulan Lalu</h3><div class="chart-wrap"><canvas id="'+acc.key+'-trend-chart"></canvas></div></div>';
+  html += '<div><h3 class="stitle">Rata-rata Views per Hari Posting</h3><div class="chart-wrap"><canvas id="'+acc.key+'-weekday-chart"></canvas></div></div>';
+  html += '</div>';
+  if(isIG){
+    html += '<h3 class="stitle" style="margin-top:8px;">Performa per Tipe Konten</h3><table class="dtable"><thead><tr><th>Tipe</th><th>Jumlah</th><th>Total Views</th><th>Avg Views</th><th>Avg Likes</th></tr></thead><tbody>';
+    Object.keys(acc.byType).forEach(function(t){ const b=acc.byType[t]; html += '<tr><td><span class="tag '+t+'">'+t+'</span></td><td>'+b.count+'</td><td>'+fmtInt(b.views)+'</td><td>'+fmtInt(b.views/(b.count||1))+'</td><td>'+fmtInt(b.likes/(b.count||1))+'</td></tr>'; });
+    html += '</tbody></table>';
+  } else {
+    html += '<h3 class="stitle" style="margin-top:8px;">Performa per Durasi Video</h3><table class="dtable"><thead><tr><th>Durasi</th><th>Jumlah</th><th>Total Views</th><th>Avg Views</th></tr></thead><tbody>';
+    Object.keys(acc.buckets).forEach(function(t){ const b=acc.buckets[t]; html += '<tr><td>'+t+'</td><td>'+b.count+'</td><td>'+fmtInt(b.views)+'</td><td>'+fmtInt(b.views/(b.count||1))+'</td></tr>'; });
+    html += '</tbody></table>';
+  }
+  html += '</section>';
+  return html;
+}
+
+function renderAccountSkor(acc){
+  const isIG = acc.platform==='instagram';
+  const scores = acc.allSorted.map(function(x){ return x.score; });
+  const avgScore = scores.length? scores.reduce(function(a,b){return a+b;},0)/scores.length : 0;
+  const medianScore = scores.length? scores.slice().sort(function(a,b){return a-b;})[Math.floor(scores.length/2)] : 0;
+  let html = '<section class="acc" id="'+acc.key+'-skor">';
+  html += '<div class="acc-header"><span class="dot '+acc.color+'"></span><h2>'+acc.label+'</h2><span class="handle">'+acc.handle+'</span></div>';
+  html += '<div class="formula-box">Score = (Views × 1) + ('+(isIG?'Saves':'Favorit')+' × 15) + (Shares × 12) + (Followers Baru × 20) + (Likes × 1)</div>';
+  html += '<div class="kpi-grid">'+kpiCard('Jumlah Konten Dinilai', fmtInt(acc.allSorted.length))+kpiCard('Skor Tertinggi', fmtInt(scores[0]||0))+kpiCard('Rata-rata Skor', fmtInt(avgScore))+kpiCard('Skor Median', fmtInt(medianScore))+'</div>';
+  html += '<h3 class="stitle">10 Skor Tertinggi</h3><div class="chart-wrap"><canvas id="'+acc.key+'-score-chart"></canvas></div>';
+  html += '</section>';
+  return html;
+}
+
+function generateInsights(acc){
+  const isIG = acc.platform==='instagram';
+  const bitter = [], mistakes = [], opp = [];
+  const savesLbl = isIG?'saves':'favorit (bookmark)';
+
+  if(acc.m.savesGrowth!==null && acc.m.savesGrowth<0){
+    bitter.push('Total '+savesLbl+' turun '+Math.abs(acc.m.savesGrowth).toFixed(1)+'% dibanding bulan lalu ('+fmtInt(acc.m.savesOrFav)+' saat ini) — sinyal bahwa konten kurang dianggap "worth saving" meski metrik lain naik.');
+  }
+  if(acc.m.sharesGrowth!==null && acc.m.sharesGrowth<0){
+    bitter.push('Shares turun '+Math.abs(acc.m.sharesGrowth).toFixed(1)+'% MoM — audiens menonton tapi makin jarang meneruskan konten ke orang lain, artinya word-of-mouth organik melemah.');
+  }
+  if(acc.m.er < acc.m.benchmark){
+    bitter.push('Engagement Rate ('+acc.m.er.toFixed(2)+'%) masih di BAWAH rata-rata industri otomotif ('+acc.m.benchmark.toFixed(2)+'%), selisih '+Math.abs(acc.m.vsBenchmarkPts).toFixed(2)+' poin.');
+  }
+  if(acc.m.newFollowersGrowth!==null && acc.m.newFollowersGrowth<0){
+    bitter.push('Pertumbuhan follower baru turun '+Math.abs(acc.m.newFollowersGrowth).toFixed(1)+'% dibanding bulan lalu — akuisisi audiens baru melambat.');
+  }
+  if(bitter.length<3){ bitter.push('Rentang performa antar-konten sangat lebar: skor tertinggi ('+fmtInt(acc.allSorted[0]? acc.allSorted[0].score:0)+') vs terendah ('+fmtInt(acc.allSorted.length? acc.allSorted[acc.allSorted.length-1].score:0)+') — mayoritas konten harian belum konsisten mendekati performa konten terbaik.'); }
+  if(bitter.length<3){ bitter.push('Sebagian besar kenaikan metrik bulan ini disumbang oleh 1-2 konten viral, bukan performa merata di seluruh konten — pertumbuhan belum "sistemik".'); }
+
+  const bottomAvgViews = acc.bottom10.length ? acc.bottom10.reduce(function(a,x){ return a+num(isIG?x.media_views:x.video_views_count); },0)/acc.bottom10.length : 0;
+  const topAvgViews = acc.top10.length ? acc.top10.reduce(function(a,x){ return a+num(isIG?x.media_views:x.video_views_count); },0)/acc.top10.length : 0;
+  if(topAvgViews>0){
+    mistakes.push('Kesenjangan performa ekstrem: rata-rata views 10 konten terbaik ('+fmtInt(topAvgViews)+') sekitar '+Math.round(topAvgViews/(bottomAvgViews||1))+'x lebih tinggi dari rata-rata 10 konten terlemah ('+fmtInt(bottomAvgViews)+') — belum ada formula konten yang konsisten diulang.');
+  }
+  if(isIG){
+    const carousel = acc.byType['CAROUSEL_ALBUM'];
+    const reels = acc.byType['REELS'];
+    if(carousel && reels && (carousel.views/(carousel.count||1)) < (reels.views/(reels.count||1))*0.2){
+      mistakes.push('Carousel/Album rata-rata hanya meraih '+fmtInt(carousel.views/(carousel.count||1))+' views vs Reels '+fmtInt(reels.views/(reels.count||1))+' views — alokasi 1 carousel/hari kurang efisien dibanding menambah frekuensi Reels.');
+    }
+  } else {
+    mistakes.push('Beberapa video dengan durasi lebih panjang tidak otomatis menghasilkan watch time atau views lebih tinggi — indikasi hook 3 detik pertama belum konsisten kuat di semua konten.');
+  }
+  mistakes.push('Caption/CTA "checkout sekarang" dipakai berulang di banyak video tanpa variasi framing — berisiko audiens mulai "banner-blind" terhadap ajakan beli yang repetitif.');
+
+  if(acc.m.er >= acc.m.benchmark){
+    opp.push('ER saat ini ('+acc.m.er.toFixed(2)+'%) sudah di ATAS benchmark industri ('+acc.m.benchmark.toFixed(2)+'%) — momentum ini bisa dipakai untuk menaikkan frekuensi posting tanpa banyak menurunkan kualitas engagement.');
+  } else {
+    opp.push('Gap ke benchmark industri (butuh +'+Math.abs(acc.m.vsBenchmarkPts).toFixed(2)+' poin ER) bisa dikejar dengan mereplikasi pola konten skor tertinggi (lihat tab Skor) secara lebih rutin.');
+  }
+  opp.push('Konten viral bulan ini membuktikan format yang works — jadikan template/checklist produksi agar hasil sejenis bisa direplikasi tiap minggu, bukan hanya sesekali.');
+  const topGender = acc.genderDist[0];
+  const topAge = acc.ageDist[0];
+  if(topGender && topAge){
+    opp.push('Audiens didominasi '+topGender.label.toLowerCase()+' ('+topGender.pct.toFixed(0)+'%) usia '+topAge.label+' ('+topAge.pct.toFixed(0)+'%) — sudut konten (bahasa, referensi motor, gaya humor) bisa lebih ditajamkan ke segmen ini untuk naikkan relevansi & save rate.');
+  }
+
+  return { bitter: bitter.slice(0,3), mistakes: mistakes.slice(0,3), opportunities: opp.slice(0,3) };
+}
+
+function renderAccountBlind(acc){
+  const ins = generateInsights(acc);
+  let html = '<section class="acc" id="'+acc.key+'-blind">';
+  html += '<div class="acc-header"><span class="dot '+acc.color+'"></span><h2>'+acc.label+'</h2><span class="handle">'+acc.handle+'</span></div>';
+  html += '<div class="insight-grid">';
+  html += '<div class="insight-card bitter"><h5>😬 3 Fakta Pahit</h5><ul>'+ins.bitter.map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul></div>';
+  html += '<div class="insight-card mistake"><h5>🚫 3 Kesalahan Terbesar</h5><ul>'+ins.mistakes.map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul></div>';
+  html += '<div class="insight-card opportunity"><h5>🚀 3 Peluang Terbesar</h5><ul>'+ins.opportunities.map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul></div>';
+  html += '</div>';
+
+  const isIG = acc.platform==='instagram';
+  html += '<h3 class="stitle">Analisis SWOT — Konten Otomotif Bulan Berjalan</h3>';
+  html += '<div class="swot-grid">';
+  html += '<div class="swot-box S"><h5>Strengths</h5><ul>'+
+    '<li>Viral score tertinggi '+fmtInt(acc.m.viralScore)+' membuktikan konten mampu menembus algoritma.</li>'+
+    '<li>Pertumbuhan '+(acc.m.viewsGrowth!==null&&acc.m.viewsGrowth>=0?'positif':'terjaga')+' pada views ('+fmtPct(acc.m.viewsGrowth)+' MoM).</li>'+
+    '<li>Niche knalpot/otomotif jelas &amp; konsisten di seluruh konten (branding kuat).</li></ul></div>';
+  html += '<div class="swot-box W"><h5>Weaknesses</h5><ul>'+
+    '<li>Kesenjangan performa top vs bottom content masih lebar (lihat tab Skor).</li>'+
+    '<li>'+(acc.m.savesGrowth!==null&&acc.m.savesGrowth<0? (isIG?'Saves':'Favorit')+' menurun '+Math.abs(acc.m.savesGrowth).toFixed(1)+'% — retensi minat jangka panjang lemah.':'Konsistensi save/bookmark rate masih perlu ditingkatkan.')+'</li>'+
+    '<li>Variasi hook/CTA terbatas, berisiko audiens jenuh.</li></ul></div>';
+  html += '<div class="swot-box O"><h5>Opportunities</h5><ul>'+
+    '<li>Segmen audiens dominan ('+(acc.genderDist[0]?acc.genderDist[0].label:'-')+', '+(acc.ageDist[0]?acc.ageDist[0].label:'-')+') masih bisa digarap lebih tajam.</li>'+
+    '<li>Format konten dengan skor tertinggi bisa dijadikan seri/rubrik rutin mingguan.</li>'+
+    '<li>Gap ke benchmark industri bisa jadi target KPI kuartalan yang terukur.</li></ul></div>';
+  html += '<div class="swot-box T"><h5>Threats</h5><ul>'+
+    '<li>Ketergantungan pada 1-2 konten viral membuat performa bulanan rentan fluktuatif.</li>'+
+    '<li>Kompetitor bengkel/knalpot lain di TikTok &amp; Instagram makin aktif membuat konten serupa.</li>'+
+    '<li>Perubahan algoritma platform bisa menurunkan reach organik sewaktu-waktu.</li></ul></div>';
+  html += '</div>';
+  html += '</section>';
+  return html;
+}
+
+/* ---------------- CHARTS ---------------- */
+const CHART_REGISTRY = {};
+function makeLineTrend(acc){
+  const ctx = document.getElementById(acc.key+'-trend-chart');
+  if(!ctx || CHART_REGISTRY[acc.key+'-trend']) return;
+  const curArr = acc.platform==='instagram'? acc.dailyCur.map(function(r){return r.views;}) : acc.dailyCur.map(function(r){return r.video_views;});
+  const prevArr = acc.platform==='instagram'? acc.dailyPrev.map(function(r){return r.views;}) : acc.dailyPrev.map(function(r){return r.video_views;});
+  const len = Math.max(curArr.length, prevArr.length);
+  const labels = []; for(let i=1;i<=len;i++) labels.push('H'+i);
+  CHART_REGISTRY[acc.key+'-trend'] = new Chart(ctx, { type:'line', data:{ labels:labels, datasets:[
+    { label:'Bulan ini', data:curArr, borderColor:'#4f8cff', backgroundColor:'rgba(79,140,255,.15)', tension:.3, fill:true, pointRadius:0 },
+    { label:'Bulan lalu', data:prevArr, borderColor:'#6b7086', backgroundColor:'rgba(107,112,134,.08)', tension:.3, fill:true, pointRadius:0, borderDash:[4,4] }
+  ]}, options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{ labels:{ color:'#c3c8d8', font:{size:11} } } }, scales:{ x:{ ticks:{ color:'#6b7086', font:{size:9} }, grid:{ color:'#1a2030' } }, y:{ ticks:{ color:'#6b7086', font:{size:9} }, grid:{ color:'#1a2030' } } } } });
+}
+function makeWeekdayChart(acc){
+  const ctx = document.getElementById(acc.key+'-weekday-chart');
+  if(!ctx || CHART_REGISTRY[acc.key+'-weekday']) return;
+  CHART_REGISTRY[acc.key+'-weekday'] = new Chart(ctx, { type:'bar', data:{ labels:WD_LABELS, datasets:[{ label:'Avg Views', data:acc.weekdayAvg, backgroundColor:'#7c5cff' }] }, options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{ display:false } }, scales:{ x:{ ticks:{ color:'#6b7086', font:{size:10} }, grid:{ display:false } }, y:{ ticks:{ color:'#6b7086', font:{size:9} }, grid:{ color:'#1a2030' } } } } });
+}
+function makeScoreChart(acc){
+  const ctx = document.getElementById(acc.key+'-score-chart');
+  if(!ctx || CHART_REGISTRY[acc.key+'-score']) return;
+  const top = acc.top10.slice(0,10);
+  const labels = top.map(function(x,i){ return 'Konten '+(i+1); });
+  const data = top.map(function(x){ return x.score; });
+  CHART_REGISTRY[acc.key+'-score'] = new Chart(ctx, { type:'bar', data:{ labels:labels, datasets:[{ label:'Skor', data:data, backgroundColor:'#3ddc84' }] }, options:{ indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{ legend:{ display:false } }, scales:{ x:{ ticks:{ color:'#6b7086', font:{size:9} }, grid:{ color:'#1a2030' } }, y:{ ticks:{ color:'#c3c8d8', font:{size:10} }, grid:{ display:false } } } } });
+}
+
+const CHARTS_INIT = {};
+function initChartsForTab(tabId){
+  if(!STATE.accounts) return;
+  const list = [STATE.accounts.instagram, STATE.accounts.tiktok1, STATE.accounts.tiktok2];
+  if(tabId==='tab-pola'){ list.forEach(function(a){ makeLineTrend(a); makeWeekdayChart(a); }); }
+  if(tabId==='tab-skor'){ list.forEach(function(a){ makeScoreChart(a); }); }
+}
+
+function showTab(tabId){
+  document.querySelectorAll('.tabpanel').forEach(function(p){ p.classList.remove('active'); });
+  document.getElementById(tabId).classList.add('active');
+  document.querySelectorAll('.tabbtn').forEach(function(b){ b.classList.remove('active'); });
+  document.getElementById('btn-'+tabId).classList.add('active');
+  if(!CHARTS_INIT[tabId]){ initChartsForTab(tabId); CHARTS_INIT[tabId]=true; }
+}
+
+/* ---------------- MAIN — baca data.json statis (hasil GitHub Actions) ---------------- */
+const STATE = { accounts:null };
+
+function renderKesimpulan(ig, tt1, tt2){
+  const best = [ig,tt1,tt2].slice().sort(function(a,b){ return (b.m.er-b.m.benchmark) - (a.m.er-a.m.benchmark); })[0];
+  const weakest = [ig,tt1,tt2].slice().sort(function(a,b){ return (a.m.viewsGrowth===null?0:a.m.viewsGrowth) - (b.m.viewsGrowth===null?0:b.m.viewsGrowth); })[0];
+  let html = '<div class="kesimpulan" id="kesimpulan-final"><h3>📌 Kesimpulan &amp; Strategi Bulan Berikutnya</h3>';
+  html += '<p><b>Kesimpulan:</b> Dari ketiga akun, <b>'+best.label+'</b> mencatat posisi ER paling kuat relatif terhadap benchmark industri ('+fmtPts(best.m.vsBenchmarkPts)+' poin), sementara <b>'+weakest.label+'</b> menunjukkan pertumbuhan views paling lemah bulan ini ('+fmtPct(weakest.m.viewsGrowth)+' MoM). Secara umum, performa organik Fajar Indah Otomotif meningkat di sisi reach dan volume tontonan, namun kualitas engagement (saves/shares) belum tentu tumbuh secepat volume.</p>';
+  html += '<p><b>Strategi bulan berikutnya:</b></p><ul style="font-size:12.8px;color:#d3d7e4;">'+
+    '<li>Jadikan format konten dengan skor tertinggi di tab <i>Skor</i> sebagai template produksi mingguan (bukan sesekali) di ketiga akun.</li>'+
+    '<li>Tambah CTA eksplisit "save/simpan untuk nanti" pada konten edukatif/perbandingan produk untuk mendongkrak saves &amp; favorit.</li>'+
+    '<li>Posting pada hari dengan rata-rata views tertinggi (lihat tab Pola &amp; Tren per akun) untuk memaksimalkan distribusi algoritma.</li>'+
+    '<li>Perbaiki hook 3 detik pertama &amp; variasi caption/CTA agar tidak repetitif, khususnya pada akun dengan gap terbesar ke benchmark.</li>'+
+    '<li>Pertahankan &amp; gandakan frekuensi tipe/format yang mendekati pola konten viral bulan ini, sambil tetap uji 1-2 format baru per minggu.</li>'+
+  '</ul></div>';
+  return html;
+}
+
+function timeAgo(iso){
+  try{
+    const diffMs = Date.now() - new Date(iso).getTime();
+    const h = Math.floor(diffMs/3600000);
+    if(h < 1) return 'kurang dari 1 jam lalu';
+    if(h < 24) return h+' jam lalu';
+    return Math.floor(h/24)+' hari lalu';
+  }catch(e){ return ''; }
+}
+
+async function init(){
+  try{
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    if(!res.ok) throw new Error('Gagal memuat data.json (HTTP '+res.status+'). Pastikan GitHub Action refresh-data sudah pernah berhasil jalan.');
+    const json = await res.json();
+    const ig = json.accounts.instagram, tt1 = json.accounts.tiktok1, tt2 = json.accounts.tiktok2;
+    STATE.accounts = { instagram: ig, tiktok1: tt1, tiktok2: tt2 };
+
+    document.getElementById('periodLabel').textContent = 'Periode berjalan: '+json.meta.period.current[0]+' s/d '+json.meta.period.current[1]+' (dibandingkan '+json.meta.period.previous[0]+' s/d '+json.meta.period.previous[1]+')';
+    document.getElementById('updatedBadge').textContent = 'Terakhir diperbarui: '+new Date(json.meta.generated_at).toLocaleString('id-ID', {dateStyle:'medium', timeStyle:'short'})+' ('+timeAgo(json.meta.generated_at)+') — via GitHub Actions terjadwal';
+
+    document.getElementById('ringkasanContainer').innerHTML = renderAccountRingkasan(ig)+renderAccountRingkasan(tt1)+renderAccountRingkasan(tt2);
+    document.getElementById('kontenContainer').innerHTML = renderAccountKonten(ig)+renderAccountKonten(tt1)+renderAccountKonten(tt2);
+    document.getElementById('polaContainer').innerHTML = renderAccountPola(ig)+renderAccountPola(tt1)+renderAccountPola(tt2);
+    document.getElementById('skorContainer').innerHTML = renderAccountSkor(ig)+renderAccountSkor(tt1)+renderAccountSkor(tt2);
+    document.getElementById('blindContainer').innerHTML = renderAccountBlind(ig)+renderAccountBlind(tt1)+renderAccountBlind(tt2)+renderKesimpulan(ig,tt1,tt2);
+
+    document.getElementById('loadingOverlay').style.display='none';
+  }catch(e){
+    console.error(e);
+    document.getElementById('loadingOverlay').style.display='none';
+    const b = document.getElementById('errBanner');
+    b.style.display='block';
+    b.textContent = 'Gagal memuat data: '+(e && e.message ? e.message : e);
+  }
+}
+init();
+</script>
+</body>
+</html>
