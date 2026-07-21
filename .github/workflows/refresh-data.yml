@@ -3,7 +3,7 @@ name: Refresh Windsor Data
 on:
   schedule:
     # Setiap 5 jam. Ubah sesuai kebutuhan (format cron, UTC).
-    - cron: '*/5 * * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch: {}   # tombol "Run workflow" manual di tab Actions
 
 permissions:
