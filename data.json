@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T09:18:35.521Z",
+    "generated_at": "2026-07-22T17:01:22.384Z",
     "period": {
       "current": [
         "2026-06-22",
@@ -20,7 +20,7 @@
       "handle": "@fajarindahotomotif",
       "color": "ig",
       "followersTotal": 1327,
-      "mediaCount": 799,
+      "mediaCount": 800,
       "curTotals": {
         "reach": 17246,
         "likes": 647,
@@ -49,150 +49,150 @@
           "timestamp": "2026-07-20T11:00:05+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DbAyIsFhmti/",
-          "media_views": 3622,
-          "media_reach": 2807,
-          "media_saved": 3,
+          "media_views": 3818,
+          "media_reach": 2959,
+          "media_saved": 4,
           "media_shares": 3,
-          "media_like_count": 114,
+          "media_like_count": 117,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 13486,
+          "media_reel_avg_watch_time": 13467,
           "media_follows": null,
-          "score": 3817
+          "score": 4031
         },
         {
           "media_id": "17925010011146773",
           "timestamp": "2026-06-30T10:10:17+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaNMP61AMAt/",
-          "media_views": 2415,
-          "media_reach": 1840,
+          "media_views": 2418,
+          "media_reach": 1842,
           "media_saved": 5,
           "media_shares": 1,
           "media_like_count": 77,
           "media_comments_count": 1,
           "media_reel_avg_watch_time": 12132,
           "media_follows": null,
-          "score": 2579
+          "score": 2582
         },
         {
           "media_id": "18087613838538043",
           "timestamp": "2026-07-13T11:20:21+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DauyjXEP2ro/",
-          "media_views": 1873,
-          "media_reach": 1505,
+          "media_views": 1878,
+          "media_reach": 1507,
           "media_saved": 0,
           "media_shares": 1,
           "media_like_count": 53,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 14194,
+          "media_reel_avg_watch_time": 14184,
           "media_follows": null,
-          "score": 1938
+          "score": 1943
         },
         {
           "media_id": "18140374675542129",
           "timestamp": "2026-07-03T10:00:11+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaU5wgiBF-R/",
-          "media_views": 1732,
-          "media_reach": 1345,
+          "media_views": 1734,
+          "media_reach": 1347,
           "media_saved": 2,
           "media_shares": 0,
           "media_like_count": 29,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 10264,
+          "media_reel_avg_watch_time": 10254,
           "media_follows": null,
-          "score": 1791
+          "score": 1793
         },
         {
           "media_id": "18417417241177984",
           "timestamp": "2026-07-17T11:00:06+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Da5DyUFhls0/",
-          "media_views": 1725,
-          "media_reach": 1370,
+          "media_views": 1729,
+          "media_reach": 1376,
           "media_saved": 1,
           "media_shares": 0,
           "media_like_count": 42,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 7754,
+          "media_reel_avg_watch_time": 7752,
           "media_follows": null,
-          "score": 1782
+          "score": 1786
         },
         {
           "media_id": "17937752538274059",
           "timestamp": "2026-07-01T10:00:11+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaPwLvZhLB_/",
-          "media_views": 1526,
+          "media_views": 1528,
           "media_reach": 1238,
           "media_saved": 1,
           "media_shares": 0,
           "media_like_count": 30,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 11040,
+          "media_reel_avg_watch_time": 11028,
           "media_follows": null,
-          "score": 1571
+          "score": 1573
         },
         {
           "media_id": "18113091286910337",
           "timestamp": "2026-06-22T10:39:58+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DZ4pZzZvcKg/",
-          "media_views": 1317,
-          "media_reach": 1091,
+          "media_views": 1319,
+          "media_reach": 1093,
           "media_saved": 1,
           "media_shares": 0,
           "media_like_count": 29,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 8589,
+          "media_reel_avg_watch_time": 8588,
           "media_follows": null,
-          "score": 1361
+          "score": 1363
         },
         {
           "media_id": "18089394770308952",
           "timestamp": "2026-07-10T10:00:11+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Dam7UzpBD9a/",
-          "media_views": 1295,
-          "media_reach": 1117,
+          "media_views": 1299,
+          "media_reach": 1121,
           "media_saved": 2,
           "media_shares": 0,
           "media_like_count": 28,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 9596,
+          "media_reel_avg_watch_time": 9587,
           "media_follows": null,
-          "score": 1353
+          "score": 1357
         },
         {
           "media_id": "18155317207489869",
           "timestamp": "2026-07-19T11:00:08+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Da-NZftBB5P/",
-          "media_views": 922,
-          "media_reach": 798,
+          "media_views": 925,
+          "media_reach": 800,
           "media_saved": 2,
           "media_shares": 0,
           "media_like_count": 16,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 8527,
+          "media_reel_avg_watch_time": 8519,
           "media_follows": null,
-          "score": 968
+          "score": 971
         },
         {
           "media_id": "18114293479901925",
           "timestamp": "2026-07-15T11:00:07+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Daz6JwRhOAm/",
-          "media_views": 682,
-          "media_reach": 550,
+          "media_views": 684,
+          "media_reach": 552,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 11,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 10798,
+          "media_reel_avg_watch_time": 10762,
           "media_follows": null,
-          "score": 693
+          "score": 695
         }
       ],
       "bottom10": [
@@ -216,15 +216,15 @@
           "timestamp": "2026-06-24T09:00:10+0000",
           "media_type": "IMAGE",
           "media_permalink": "https://www.instagram.com/p/DZ9ntCVlfCv/",
-          "media_views": 53,
-          "media_reach": 32,
+          "media_views": 54,
+          "media_reach": 33,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 1,
           "media_comments_count": 0,
           "media_reel_avg_watch_time": null,
           "media_follows": 0,
-          "score": 54
+          "score": 55
         },
         {
           "media_id": "17993300480995555",
@@ -352,152 +352,152 @@
         "timestamp": "2026-07-20T11:00:05+0000",
         "media_type": "REELS",
         "media_permalink": "https://www.instagram.com/reel/DbAyIsFhmti/",
-        "media_views": 3622,
-        "media_reach": 2807,
-        "media_saved": 3,
+        "media_views": 3818,
+        "media_reach": 2959,
+        "media_saved": 4,
         "media_shares": 3,
-        "media_like_count": 114,
+        "media_like_count": 117,
         "media_comments_count": 1,
-        "media_reel_avg_watch_time": 13486,
+        "media_reel_avg_watch_time": 13467,
         "media_follows": null,
-        "score": 3817
+        "score": 4031
       },
       "byType": {
         "REELS": {
           "count": 30,
-          "views": 21898,
-          "likes": 537
+          "views": 22176,
+          "likes": 540
         },
         "CAROUSEL_ALBUM": {
           "count": 18,
-          "views": 1616,
+          "views": 1621,
           "likes": 22
         },
         "IMAGE": {
           "count": 5,
-          "views": 373,
+          "views": 374,
           "likes": 6
         }
       },
       "weekdayAvg": [
-        858,
-        440,
-        427.7142857142857,
-        152,
-        730,
-        147.28571428571428,
-        286.57142857142856
+        881.2222222222222,
+        442,
+        429,
+        153.42857142857142,
+        731.7142857142857,
+        148.85714285714286,
+        288.7142857142857
       ],
       "ageDist": [
         {
           "label": "25-34",
-          "pct": 45.82299421009098
+          "pct": 45.86404586404586
         },
         {
           "label": "35-44",
-          "pct": 23.655913978494624
+          "pct": 23.669123669123667
         },
         {
           "label": "18-24",
-          "pct": 20.181968569065344
+          "pct": 20.22932022932023
         },
         {
           "label": "45-54",
-          "pct": 5.707196029776675
+          "pct": 5.651105651105651
         },
         {
           "label": "55-64",
-          "pct": 2.1505376344086025
+          "pct": 2.1294021294021293
         },
         {
           "label": "13-17",
-          "pct": 1.4061207609594708
+          "pct": 1.3923013923013923
         },
         {
           "label": "65+",
-          "pct": 1.0752688172043012
+          "pct": 1.0647010647010646
         }
       ],
       "genderDist": [
         {
           "label": "Laki-laki",
-          "pct": 64.51612903225806
+          "pct": 64.70106470106471
         },
         {
           "label": "Tidak diketahui",
-          "pct": 28.03970223325062
+          "pct": 27.927927927927925
         },
         {
           "label": "Perempuan",
-          "pct": 7.444168734491314
+          "pct": 7.371007371007371
         }
       ],
       "countryDist": [
         {
           "label": "ID",
-          "pct": 90.48800661703888
+          "pct": 90.58149058149058
         },
         {
           "label": "BR",
-          "pct": 3.391232423490488
+          "pct": 3.357903357903358
         },
         {
           "label": "KG",
-          "pct": 1.488833746898263
+          "pct": 1.4742014742014742
         },
         {
           "label": "IN",
-          "pct": 0.49627791563275436
+          "pct": 0.4914004914004914
         },
         {
           "label": "PH",
-          "pct": 0.49627791563275436
+          "pct": 0.4914004914004914
         },
         {
           "label": "EC",
-          "pct": 0.24813895781637718
+          "pct": 0.2457002457002457
         },
         {
           "label": "JO",
-          "pct": 0.1654259718775848
+          "pct": 0.16380016380016382
         },
         {
           "label": "US",
-          "pct": 0.1654259718775848
+          "pct": 0.16380016380016382
         }
       ],
       "provDist": [
         {
           "label": "East Java",
-          "pct": 42.11469534050179
+          "pct": 42.857142857142854
         },
         {
           "label": "Jakarta",
-          "pct": 15.949820788530467
+          "pct": 16.25
         },
         {
           "label": "West Java",
-          "pct": 13.082437275985665
+          "pct": 13.214285714285715
         },
         {
           "label": "Central Java",
-          "pct": 11.827956989247312
+          "pct": 12.5
         },
         {
           "label": "Banten",
-          "pct": 4.301075268817205
+          "pct": 4.821428571428572
         },
         {
           "label": "Bali",
-          "pct": 2.867383512544803
-        },
-        {
-          "label": "Osh Region",
-          "pct": 1.971326164874552
+          "pct": 2.6785714285714284
         },
         {
           "label": "Bishkek",
-          "pct": 1.2544802867383513
+          "pct": 1.25
+        },
+        {
+          "label": "Riau Islands Province",
+          "pct": 1.25
         }
       ],
       "dailyCur": [
@@ -1170,345 +1170,345 @@
           "timestamp": "2026-07-20T11:00:05+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DbAyIsFhmti/",
-          "media_views": 3622,
-          "media_reach": 2807,
-          "media_saved": 3,
+          "media_views": 3818,
+          "media_reach": 2959,
+          "media_saved": 4,
           "media_shares": 3,
-          "media_like_count": 114,
+          "media_like_count": 117,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 13486,
+          "media_reel_avg_watch_time": 13467,
           "media_follows": null,
-          "score": 3817
+          "score": 4031
         },
         {
           "media_id": "17925010011146773",
           "timestamp": "2026-06-30T10:10:17+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaNMP61AMAt/",
-          "media_views": 2415,
-          "media_reach": 1840,
+          "media_views": 2418,
+          "media_reach": 1842,
           "media_saved": 5,
           "media_shares": 1,
           "media_like_count": 77,
           "media_comments_count": 1,
           "media_reel_avg_watch_time": 12132,
           "media_follows": null,
-          "score": 2579
+          "score": 2582
         },
         {
           "media_id": "18087613838538043",
           "timestamp": "2026-07-13T11:20:21+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DauyjXEP2ro/",
-          "media_views": 1873,
-          "media_reach": 1505,
+          "media_views": 1878,
+          "media_reach": 1507,
           "media_saved": 0,
           "media_shares": 1,
           "media_like_count": 53,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 14194,
+          "media_reel_avg_watch_time": 14184,
           "media_follows": null,
-          "score": 1938
+          "score": 1943
         },
         {
           "media_id": "18140374675542129",
           "timestamp": "2026-07-03T10:00:11+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaU5wgiBF-R/",
-          "media_views": 1732,
-          "media_reach": 1345,
+          "media_views": 1734,
+          "media_reach": 1347,
           "media_saved": 2,
           "media_shares": 0,
           "media_like_count": 29,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 10264,
+          "media_reel_avg_watch_time": 10254,
           "media_follows": null,
-          "score": 1791
+          "score": 1793
         },
         {
           "media_id": "18417417241177984",
           "timestamp": "2026-07-17T11:00:06+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Da5DyUFhls0/",
-          "media_views": 1725,
-          "media_reach": 1370,
+          "media_views": 1729,
+          "media_reach": 1376,
           "media_saved": 1,
           "media_shares": 0,
           "media_like_count": 42,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 7754,
+          "media_reel_avg_watch_time": 7752,
           "media_follows": null,
-          "score": 1782
+          "score": 1786
         },
         {
           "media_id": "17937752538274059",
           "timestamp": "2026-07-01T10:00:11+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaPwLvZhLB_/",
-          "media_views": 1526,
+          "media_views": 1528,
           "media_reach": 1238,
           "media_saved": 1,
           "media_shares": 0,
           "media_like_count": 30,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 11040,
+          "media_reel_avg_watch_time": 11028,
           "media_follows": null,
-          "score": 1571
+          "score": 1573
         },
         {
           "media_id": "18113091286910337",
           "timestamp": "2026-06-22T10:39:58+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DZ4pZzZvcKg/",
-          "media_views": 1317,
-          "media_reach": 1091,
+          "media_views": 1319,
+          "media_reach": 1093,
           "media_saved": 1,
           "media_shares": 0,
           "media_like_count": 29,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 8589,
+          "media_reel_avg_watch_time": 8588,
           "media_follows": null,
-          "score": 1361
+          "score": 1363
         },
         {
           "media_id": "18089394770308952",
           "timestamp": "2026-07-10T10:00:11+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Dam7UzpBD9a/",
-          "media_views": 1295,
-          "media_reach": 1117,
+          "media_views": 1299,
+          "media_reach": 1121,
           "media_saved": 2,
           "media_shares": 0,
           "media_like_count": 28,
           "media_comments_count": 1,
-          "media_reel_avg_watch_time": 9596,
+          "media_reel_avg_watch_time": 9587,
           "media_follows": null,
-          "score": 1353
+          "score": 1357
         },
         {
           "media_id": "18155317207489869",
           "timestamp": "2026-07-19T11:00:08+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Da-NZftBB5P/",
-          "media_views": 922,
-          "media_reach": 798,
+          "media_views": 925,
+          "media_reach": 800,
           "media_saved": 2,
           "media_shares": 0,
           "media_like_count": 16,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 8527,
+          "media_reel_avg_watch_time": 8519,
           "media_follows": null,
-          "score": 968
+          "score": 971
         },
         {
           "media_id": "18114293479901925",
           "timestamp": "2026-07-15T11:00:07+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Daz6JwRhOAm/",
-          "media_views": 682,
-          "media_reach": 550,
+          "media_views": 684,
+          "media_reach": 552,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 11,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 10798,
+          "media_reel_avg_watch_time": 10762,
           "media_follows": null,
-          "score": 693
+          "score": 695
         },
         {
           "media_id": "18109325188984916",
           "timestamp": "2026-07-21T11:00:07+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DbDW6GBhaTt/",
-          "media_views": 512,
-          "media_reach": 365,
+          "media_views": 522,
+          "media_reach": 374,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 16,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 9197,
+          "media_reel_avg_watch_time": 9086,
           "media_follows": null,
-          "score": 528
+          "score": 538
         },
         {
           "media_id": "18185524537396276",
           "timestamp": "2026-07-12T10:00:07+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DasE8oDhRYa/",
-          "media_views": 477,
-          "media_reach": 373,
+          "media_views": 486,
+          "media_reach": 378,
           "media_saved": 1,
           "media_shares": 0,
           "media_like_count": 6,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 6948,
+          "media_reel_avg_watch_time": 7160,
           "media_follows": null,
-          "score": 498
+          "score": 507
         },
         {
           "media_id": "17970841374079776",
           "timestamp": "2026-06-23T10:02:44+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DZ7J7vCBElC/",
-          "media_views": 380,
-          "media_reach": 291,
+          "media_views": 382,
+          "media_reach": 293,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 10,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 6062,
+          "media_reel_avg_watch_time": 6086,
           "media_follows": null,
-          "score": 390
+          "score": 392
         },
         {
           "media_id": "18449861896138904",
           "timestamp": "2026-07-06T10:19:33+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/Dacp3fyt633/",
-          "media_views": 374,
-          "media_reach": 270,
+          "media_views": 379,
+          "media_reach": 272,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 6,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 8638,
+          "media_reel_avg_watch_time": 8743,
           "media_follows": null,
-          "score": 380
+          "score": 385
         },
         {
           "media_id": "17947402908208918",
           "timestamp": "2026-07-02T10:00:12+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaSU_eqhV4n/",
-          "media_views": 311,
-          "media_reach": 224,
+          "media_views": 312,
+          "media_reach": 225,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 9,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 10043,
+          "media_reel_avg_watch_time": 10011,
           "media_follows": null,
-          "score": 320
+          "score": 321
         },
         {
           "media_id": "17939182947257952",
           "timestamp": "2026-07-04T10:00:12+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaXekl0h34t/",
-          "media_views": 308,
-          "media_reach": 215,
+          "media_views": 310,
+          "media_reach": 217,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 6,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 8055,
+          "media_reel_avg_watch_time": 8004,
           "media_follows": null,
-          "score": 314
+          "score": 316
         },
         {
           "media_id": "18344017831175068",
           "timestamp": "2026-06-25T11:00:10+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaAaP1-Bhi1/",
-          "media_views": 272,
-          "media_reach": 195,
+          "media_views": 273,
+          "media_reach": 196,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 6,
           "media_comments_count": 0,
           "media_reel_avg_watch_time": 6144,
           "media_follows": null,
-          "score": 278
+          "score": 279
         },
         {
           "media_id": "18120741292813829",
           "timestamp": "2026-07-05T10:00:11+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaaDUVyBEZz/",
-          "media_views": 274,
-          "media_reach": 222,
+          "media_views": 276,
+          "media_reach": 224,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 2,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 6721,
+          "media_reel_avg_watch_time": 6708,
           "media_follows": null,
-          "score": 276
+          "score": 278
         },
         {
           "media_id": "17927994204123392",
           "timestamp": "2026-06-24T10:00:09+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DZ9ukqXhHx9/",
-          "media_views": 232,
-          "media_reach": 171,
+          "media_views": 234,
+          "media_reach": 173,
           "media_saved": 0,
           "media_shares": 1,
           "media_like_count": 11,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 6130,
+          "media_reel_avg_watch_time": 6161,
           "media_follows": null,
-          "score": 255
+          "score": 257
         },
         {
           "media_id": "18101820173142518",
           "timestamp": "2026-07-08T10:00:10+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DahxufVB3cF/",
-          "media_views": 234,
-          "media_reach": 159,
+          "media_views": 236,
+          "media_reach": 161,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 6,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 12041,
+          "media_reel_avg_watch_time": 11956,
           "media_follows": null,
-          "score": 240
-        },
-        {
-          "media_id": "18132428440610277",
-          "timestamp": "2026-07-07T10:00:10+0000",
-          "media_type": "REELS",
-          "media_permalink": "https://www.instagram.com/reel/DafM6SgBbz7/",
-          "media_views": 227,
-          "media_reach": 163,
-          "media_saved": 0,
-          "media_shares": 0,
-          "media_like_count": 5,
-          "media_comments_count": 0,
-          "media_reel_avg_watch_time": 7540,
-          "media_follows": null,
-          "score": 232
+          "score": 242
         },
         {
           "media_id": "18322829800272468",
           "timestamp": "2026-07-11T10:00:07+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DapgKoPhPCR/",
-          "media_views": 226,
-          "media_reach": 179,
+          "media_views": 229,
+          "media_reach": 181,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 6,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 5740,
+          "media_reel_avg_watch_time": 5981,
           "media_follows": null,
-          "score": 232
+          "score": 235
+        },
+        {
+          "media_id": "18132428440610277",
+          "timestamp": "2026-07-07T10:00:10+0000",
+          "media_type": "REELS",
+          "media_permalink": "https://www.instagram.com/reel/DafM6SgBbz7/",
+          "media_views": 229,
+          "media_reach": 165,
+          "media_saved": 0,
+          "media_shares": 0,
+          "media_like_count": 5,
+          "media_comments_count": 0,
+          "media_reel_avg_watch_time": 7492,
+          "media_follows": null,
+          "score": 234
         },
         {
           "media_id": "17894997441505671",
           "timestamp": "2026-06-29T10:00:01+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaKmne6h-Pw/",
-          "media_views": 221,
-          "media_reach": 174,
+          "media_views": 222,
+          "media_reach": 175,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 2,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 4718,
+          "media_reel_avg_watch_time": 4733,
           "media_follows": null,
-          "score": 223
+          "score": 224
         },
         {
           "media_id": "18055456646597078",
@@ -1530,15 +1530,30 @@
           "timestamp": "2026-07-09T09:00:19+0000",
           "media_type": "CAROUSEL_ALBUM",
           "media_permalink": "https://www.instagram.com/p/DakPpTxDSel/",
-          "media_views": 128,
-          "media_reach": 71,
+          "media_views": 131,
+          "media_reach": 74,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 1,
           "media_comments_count": 0,
           "media_reel_avg_watch_time": null,
           "media_follows": 0,
-          "score": 129
+          "score": 132
+        },
+        {
+          "media_id": "17909234007261934",
+          "timestamp": "2026-07-16T11:00:05+0000",
+          "media_type": "REELS",
+          "media_permalink": "https://www.instagram.com/reel/Da2fAXfhnfv/",
+          "media_views": 122,
+          "media_reach": 94,
+          "media_saved": 0,
+          "media_shares": 0,
+          "media_like_count": 2,
+          "media_comments_count": 0,
+          "media_reel_avg_watch_time": 8621,
+          "media_follows": null,
+          "score": 124
         },
         {
           "media_id": "18344704348223921",
@@ -1546,7 +1561,7 @@
           "media_type": "CAROUSEL_ALBUM",
           "media_permalink": "https://www.instagram.com/p/DapZOnwG-CY/",
           "media_views": 123,
-          "media_reach": 51,
+          "media_reach": 52,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 0,
@@ -1556,19 +1571,19 @@
           "score": 123
         },
         {
-          "media_id": "17909234007261934",
-          "timestamp": "2026-07-16T11:00:05+0000",
+          "media_id": "18106788895951439",
+          "timestamp": "2026-06-26T10:00:10+0000",
           "media_type": "REELS",
-          "media_permalink": "https://www.instagram.com/reel/Da2fAXfhnfv/",
-          "media_views": 120,
-          "media_reach": 92,
+          "media_permalink": "https://www.instagram.com/reel/DaC4PYwhlfU/",
+          "media_views": 118,
+          "media_reach": 76,
           "media_saved": 0,
           "media_shares": 0,
-          "media_like_count": 2,
+          "media_like_count": 3,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 8771,
+          "media_reel_avg_watch_time": 11064,
           "media_follows": null,
-          "score": 122
+          "score": 121
         },
         {
           "media_id": "18601606156062274",
@@ -1586,19 +1601,19 @@
           "score": 121
         },
         {
-          "media_id": "18106788895951439",
-          "timestamp": "2026-06-26T10:00:10+0000",
+          "media_id": "17873581917527579",
+          "timestamp": "2026-06-27T10:00:10+0000",
           "media_type": "REELS",
-          "media_permalink": "https://www.instagram.com/reel/DaC4PYwhlfU/",
-          "media_views": 117,
-          "media_reach": 75,
+          "media_permalink": "https://www.instagram.com/reel/DaFdA9rBQxw/",
+          "media_views": 112,
+          "media_reach": 71,
           "media_saved": 0,
           "media_shares": 0,
-          "media_like_count": 3,
+          "media_like_count": 4,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 11173,
+          "media_reel_avg_watch_time": 10001,
           "media_follows": null,
-          "score": 120
+          "score": 116
         },
         {
           "media_id": "17883632073670390",
@@ -1606,7 +1621,7 @@
           "media_type": "CAROUSEL_ALBUM",
           "media_permalink": "https://www.instagram.com/p/DaujdpOmgaP/",
           "media_views": 115,
-          "media_reach": 49,
+          "media_reach": 50,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 1,
@@ -1616,19 +1631,19 @@
           "score": 116
         },
         {
-          "media_id": "17873581917527579",
-          "timestamp": "2026-06-27T10:00:10+0000",
+          "media_id": "18123383593787310",
+          "timestamp": "2026-07-18T11:00:06+0000",
           "media_type": "REELS",
-          "media_permalink": "https://www.instagram.com/reel/DaFdA9rBQxw/",
-          "media_views": 111,
-          "media_reach": 70,
+          "media_permalink": "https://www.instagram.com/reel/Da7oge4h5KM/",
+          "media_views": 113,
+          "media_reach": 72,
           "media_saved": 0,
           "media_shares": 0,
-          "media_like_count": 4,
+          "media_like_count": 1,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 10105,
+          "media_reel_avg_watch_time": 7267,
           "media_follows": null,
-          "score": 115
+          "score": 114
         },
         {
           "media_id": "17887040244415631",
@@ -1646,64 +1661,49 @@
           "score": 111
         },
         {
-          "media_id": "18123383593787310",
-          "timestamp": "2026-07-18T11:00:06+0000",
-          "media_type": "REELS",
-          "media_permalink": "https://www.instagram.com/reel/Da7oge4h5KM/",
-          "media_views": 108,
-          "media_reach": 69,
-          "media_saved": 0,
-          "media_shares": 0,
-          "media_like_count": 1,
-          "media_comments_count": 0,
-          "media_reel_avg_watch_time": 7533,
-          "media_follows": null,
-          "score": 109
-        },
-        {
           "media_id": "18110682202767729",
           "timestamp": "2026-07-14T10:00:06+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaxOfZghqmL/",
-          "media_views": 106,
-          "media_reach": 68,
+          "media_views": 107,
+          "media_reach": 69,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 2,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 6116,
+          "media_reel_avg_watch_time": 6051,
           "media_follows": null,
-          "score": 108
+          "score": 109
         },
         {
           "media_id": "17958279573172831",
           "timestamp": "2026-07-10T09:00:12+0000",
           "media_type": "CAROUSEL_ALBUM",
           "media_permalink": "https://www.instagram.com/p/Dam0bXyGrOt/",
-          "media_views": 106,
-          "media_reach": 56,
+          "media_views": 107,
+          "media_reach": 57,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 0,
           "media_comments_count": 0,
           "media_reel_avg_watch_time": null,
           "media_follows": 0,
-          "score": 106
+          "score": 107
         },
         {
           "media_id": "18376720933200451",
           "timestamp": "2026-06-28T10:00:09+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DaIBzyVBtOB/",
-          "media_views": 100,
-          "media_reach": 70,
+          "media_views": 101,
+          "media_reach": 71,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 2,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 4984,
+          "media_reel_avg_watch_time": 4939,
           "media_follows": null,
-          "score": 102
+          "score": 103
         },
         {
           "media_id": "18142746136469447",
@@ -1740,15 +1740,15 @@
           "timestamp": "2026-07-09T10:00:10+0000",
           "media_type": "REELS",
           "media_permalink": "https://www.instagram.com/reel/DakWlM3hFFS/",
-          "media_views": 79,
-          "media_reach": 51,
+          "media_views": 81,
+          "media_reach": 53,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 3,
           "media_comments_count": 0,
-          "media_reel_avg_watch_time": 5680,
+          "media_reel_avg_watch_time": 5762,
           "media_follows": null,
-          "score": 82
+          "score": 84
         },
         {
           "media_id": "17922433173165747",
@@ -1800,15 +1800,15 @@
           "timestamp": "2026-06-25T09:00:16+0000",
           "media_type": "CAROUSEL_ALBUM",
           "media_permalink": "https://www.instagram.com/p/DaAMgqmiJVG/",
-          "media_views": 73,
-          "media_reach": 38,
+          "media_views": 74,
+          "media_reach": 39,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 1,
           "media_comments_count": 0,
           "media_reel_avg_watch_time": null,
           "media_follows": 0,
-          "score": 74
+          "score": 75
         },
         {
           "media_id": "18598649773041899",
@@ -1935,15 +1935,15 @@
           "timestamp": "2026-06-24T09:00:10+0000",
           "media_type": "IMAGE",
           "media_permalink": "https://www.instagram.com/p/DZ9ntCVlfCv/",
-          "media_views": 53,
-          "media_reach": 32,
+          "media_views": 54,
+          "media_reach": 33,
           "media_saved": 0,
           "media_shares": 0,
           "media_like_count": 1,
           "media_comments_count": 0,
           "media_reel_avg_watch_time": null,
           "media_follows": 0,
-          "score": 54
+          "score": 55
         },
         {
           "media_id": "18001109315976272",
@@ -1981,8 +1981,8 @@
         "benchmark": 0.31,
         "vsBenchmarkPts": 3.8880749159225325,
         "avgViewPerDay": 933.6,
-        "viralScore": 3817,
-        "viralViews": 3622
+        "viralScore": 4031,
+        "viralViews": 3818
       }
     },
     "tiktok1": {
@@ -1991,18 +1991,18 @@
       "label": "TikTok 1 — Fajar Indah Otomotif",
       "handle": "@fajarindahotomotif",
       "color": "tt1",
-      "followersTotal": 14401,
+      "followersTotal": 14411,
       "videosCount": 591,
-      "totalLikesAllTime": 137376,
+      "totalLikesAllTime": 137484,
       "curTotals": {
-        "views": 698582,
-        "likes": 10258,
-        "shares": 561,
-        "comments": 392,
-        "profileViews": 16175,
+        "views": 716310,
+        "likes": 10529,
+        "shares": 571,
+        "comments": 400,
+        "profileViews": 16566,
         "engaged": 15203,
         "uniqueViews": 559753,
-        "days": 29
+        "days": 30
       },
       "prevTotals": {
         "views": 472640,
@@ -2014,7 +2014,7 @@
         "uniqueViews": 342388,
         "days": 30
       },
-      "netFollowersCur": 547,
+      "netFollowersCur": 558,
       "netFollowersPrev": 433,
       "buckets": {
         "<20 dtk": {
@@ -2023,11 +2023,11 @@
         },
         "20-40 dtk": {
           "count": 17,
-          "views": 187439
+          "views": 190342
         },
         ">40 dtk": {
           "count": 13,
-          "views": 211180
+          "views": 212343
         }
       },
       "top10": [
@@ -2036,8 +2036,8 @@
           "username": "fajarindahotomotif",
           "video_caption": "Katanya tinggal pasang, ujung-ujungnya cuman jadi pajangan!! #glgank🤙 #glpro #glmodifikasi #pnp #fajarindahotomotif",
           "video_create_datetime": "2026-07-08T10:00:00",
-          "video_views_count": 66651,
-          "video_likes": 1190,
+          "video_views_count": 66812,
+          "video_likes": 1192,
           "video_shares": 38,
           "video_comments": 18,
           "video_favorites": 85,
@@ -2046,32 +2046,32 @@
           "video_average_time_watched": 17.9,
           "video_duration": 38.476,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7660087938302201109?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 71172
+          "score": 71335
         },
         {
           "video_id": "7661181996126719253",
           "username": "fajarindahotomotif",
           "video_caption": "Tarikan berat, bikin tenaga sekarat! #rxkingindonesia #rxkingmodifikasi #rxking135cc #knalpot2tak #fajarindahotomotif",
           "video_create_datetime": "2026-07-11T10:00:00",
-          "video_views_count": 53575,
-          "video_likes": 1031,
+          "video_views_count": 53763,
+          "video_likes": 1033,
           "video_shares": 49,
           "video_comments": 26,
-          "video_favorites": 65,
+          "video_favorites": 64,
           "video_reach": 47168,
           "video_new_followers": 59,
           "video_average_time_watched": 18.13,
           "video_duration": 44.954,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7661181996126719253?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 57349
+          "score": 57524
         },
         {
           "video_id": "7659714677726825748",
           "username": "fajarindahotomotif",
           "video_caption": "Kilaunya cepat habis, efek chrome selapis! #cb125se #cbgank🤙 #cbindonesia #knalpotcb #fajarindahotomotif",
           "video_create_datetime": "2026-07-07T10:00:00",
-          "video_views_count": 48342,
-          "video_likes": 977,
+          "video_views_count": 48596,
+          "video_likes": 983,
           "video_shares": 88,
           "video_comments": 7,
           "video_favorites": 54,
@@ -2080,67 +2080,67 @@
           "video_average_time_watched": 17.59,
           "video_duration": 40.612,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7659714677726825748?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 52445
+          "score": 52705
         },
         {
           "video_id": "7656756023847308564",
           "username": "fajarindahotomotif",
           "video_caption": "hari gini masih make knalpot yang karatan luar dalem? #astreagrand #grandgank🚀 #grandindonesia #knalpotkaratan #fajarindahotomotif",
           "video_create_datetime": "2026-06-29T10:03:58",
-          "video_views_count": 44658,
-          "video_likes": 576,
+          "video_views_count": 44858,
+          "video_likes": 580,
           "video_shares": 46,
           "video_comments": 14,
-          "video_favorites": 66,
+          "video_favorites": 67,
           "video_reach": 40417,
           "video_new_followers": 45,
           "video_average_time_watched": 14.95,
           "video_duration": 54.544,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7656756023847308564?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 47676
+          "score": 47895
         },
         {
           "video_id": "7663078921272872212",
           "username": "fajarindahotomotif",
           "video_caption": "Saringan loss tenaga ngempos! #glgank🤙 #glpro #glmodifikasi #knalpotgl #fajarindahotomotif",
           "video_create_datetime": "2026-07-16T11:00:04",
-          "video_views_count": 24383,
-          "video_likes": 569,
+          "video_views_count": 25007,
+          "video_likes": 589,
           "video_shares": 23,
           "video_comments": 10,
-          "video_favorites": 33,
+          "video_favorites": 37,
           "video_reach": 19115,
-          "video_new_followers": 14,
-          "video_average_time_watched": 17.72,
+          "video_new_followers": 17,
+          "video_average_time_watched": 17.67,
           "video_duration": 37.756,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663078921272872212?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 26003
+          "score": 26767
         },
         {
           "video_id": "7660828199068208405",
           "username": "fajarindahotomotif",
           "video_caption": "Jangan sampai beli murah, tapi dapetnya sampah! #astreagrandindonesia #grandgank🚀 #astreagrand #grandmodifikasi #fajarindahotomotif",
           "video_create_datetime": "2026-07-10T10:00:00",
-          "video_views_count": 22119,
-          "video_likes": 250,
-          "video_shares": 39,
+          "video_views_count": 22446,
+          "video_likes": 256,
+          "video_shares": 40,
           "video_comments": 3,
-          "video_favorites": 31,
+          "video_favorites": 32,
           "video_reach": 19458,
           "video_new_followers": 12,
           "video_average_time_watched": 14.35,
           "video_duration": 38.685,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7660828199068208405?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 23542
+          "score": 23902
         },
         {
           "video_id": "7657859316204047634",
           "username": "fajarindahotomotif",
           "video_caption": "Solusi motor di medan tanjakan! #hondawin #win100 #hondawinindonesia #knalpotchrome #fajarindahotomotif",
           "video_create_datetime": "2026-07-02T10:00:00",
-          "video_views_count": 19769,
-          "video_likes": 393,
-          "video_shares": 12,
+          "video_views_count": 20024,
+          "video_likes": 399,
+          "video_shares": 13,
           "video_comments": 5,
           "video_favorites": 46,
           "video_reach": 17807,
@@ -2148,14 +2148,14 @@
           "video_average_time_watched": 13.22,
           "video_duration": 35.945,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7657859316204047634?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 21616
+          "score": 21889
         },
         {
           "video_id": "7658239372780686613",
           "username": "fajarindahotomotif",
           "video_caption": "Beli knalpot kok rugi 2x ?! #astreagrand #grandgank🚀 #grandindonesia #knalpotchrome #fajarindahotomotif",
           "video_create_datetime": "2026-07-03T10:00:06",
-          "video_views_count": 15019,
+          "video_views_count": 15045,
           "video_likes": 170,
           "video_shares": 9,
           "video_comments": 4,
@@ -2165,14 +2165,14 @@
           "video_average_time_watched": 14.83,
           "video_duration": 40.775,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7658239372780686613?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 15922
+          "score": 15948
         },
         {
           "video_id": "7654893037054659861",
           "username": "fajarindahotomotif",
           "video_caption": "Knalpot aman, riding tenang! #pressmachine #cb125se #cbgank🤙 #fajarindahotomotif #fajarindahknalpot",
           "video_create_datetime": "2026-06-24T10:00:00",
-          "video_views_count": 9333,
+          "video_views_count": 9346,
           "video_likes": 119,
           "video_shares": 23,
           "video_comments": 1,
@@ -2182,16 +2182,16 @@
           "video_average_time_watched": 12.42,
           "video_duration": 35.272,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7654893037054659861?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 9963
+          "score": 9976
         },
         {
           "video_id": "7657501014618082581",
           "username": "fajarindahotomotif",
           "video_caption": "Pilih knalpot jangan ketipu kinclongnya, cek dulu berapa lapis chrome nya! #astreagrand #grandgank🚀 #grandindonesia #knalpotchrome#fajarindahotomotif",
           "video_create_datetime": "2026-07-01T10:14:55",
-          "video_views_count": 9230,
+          "video_views_count": 9252,
           "video_likes": 86,
-          "video_shares": 10,
+          "video_shares": 11,
           "video_comments": 2,
           "video_favorites": 8,
           "video_reach": 8702,
@@ -2199,7 +2199,7 @@
           "video_average_time_watched": 13.29,
           "video_duration": 42.749,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7657501014618082581?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 9616
+          "score": 9650
         }
       ],
       "bottom10": [
@@ -2208,24 +2208,24 @@
           "username": "fajarindahotomotif",
           "video_caption": "Tarikan brebet, digas macet! #hondawin #win100 #win100modifkasiclassicindonesia #motorbrebet #fajarindahotomotif",
           "video_create_datetime": "2026-07-20T10:00:00",
-          "video_views_count": 1714,
-          "video_likes": 33,
+          "video_views_count": 1799,
+          "video_likes": 34,
           "video_shares": 1,
           "video_comments": 0,
-          "video_favorites": 2,
+          "video_favorites": 3,
           "video_reach": 1091,
           "video_new_followers": 1,
-          "video_average_time_watched": 10.41,
+          "video_average_time_watched": 10.54,
           "video_duration": 38.871,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7664531673526111509?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1809
+          "score": 1910
         },
         {
           "video_id": "7661179632036711687",
           "username": "fajarindahotomotif",
           "video_caption": "Replying to @ILH4M🍀🍀 gass kak langsungkan checkout sekarang !! #karisma #hondakharisma #karismamodifikasi #knalpot #fajarindahotomotif ",
           "video_create_datetime": "2026-07-12T10:00:00",
-          "video_views_count": 1836,
+          "video_views_count": 1847,
           "video_likes": 13,
           "video_shares": 0,
           "video_comments": 1,
@@ -2235,31 +2235,14 @@
           "video_average_time_watched": 6.79,
           "video_duration": 21.803,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7661179632036711687?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1959
-        },
-        {
-          "video_id": "7664925583108771090",
-          "username": "fajarindahotomotif",
-          "video_caption": "Gaya gacor tapi knalpot bocor! #rxking #rxkingindonesia #knalpot2tak #tipsotomotif #fajarindahotomotif",
-          "video_create_datetime": "2026-07-21T11:00:00",
-          "video_views_count": 2026,
-          "video_likes": 30,
-          "video_shares": 12,
-          "video_comments": 4,
-          "video_favorites": 4,
-          "video_reach": 0,
-          "video_new_followers": 0,
-          "video_average_time_watched": 13.46,
-          "video_duration": 35.202,
-          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7664925583108771090?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2260
+          "score": 1970
         },
         {
           "video_id": "7655984980694142229",
           "username": "fajarindahotomotif",
           "video_caption": "Nunggu knalpot bolong baru nyesel?#legenda #astrealegenda #astreagrandindonesia #honda #fajarindahotomotif",
           "video_create_datetime": "2026-06-27T10:00:00",
-          "video_views_count": 2023,
+          "video_views_count": 2032,
           "video_likes": 19,
           "video_shares": 17,
           "video_comments": 2,
@@ -2269,14 +2252,14 @@
           "video_average_time_watched": 7.65,
           "video_duration": 37.734,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7655984980694142229?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2336
+          "score": 2345
         },
         {
           "video_id": "7654534230722055432",
           "username": "fajarindahotomotif",
           "video_caption": "Main motor itu soal selera, tapi milih knalpot itu soal lu berada di level mana. #lasercutting #glpro #glgank🤙 #fajarindahotomotif #fajarindahknalpot",
           "video_create_datetime": "2026-06-23T10:22:21",
-          "video_views_count": 2209,
+          "video_views_count": 2220,
           "video_likes": 31,
           "video_shares": 4,
           "video_comments": 0,
@@ -2286,14 +2269,14 @@
           "video_average_time_watched": 7.38,
           "video_duration": 30.117,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7654534230722055432?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2368
+          "score": 2379
         },
         {
           "video_id": "7655278510319422741",
           "username": "fajarindahotomotif",
           "video_caption": "Knalpot nguning bikin pening... !!! #grand #astreagrandindonesia #astreagrand #fajarindahotomotif",
           "video_create_datetime": "2026-06-25T11:00:00",
-          "video_views_count": 2372,
+          "video_views_count": 2379,
           "video_likes": 38,
           "video_shares": 0,
           "video_comments": 4,
@@ -2303,14 +2286,14 @@
           "video_average_time_watched": 10.08,
           "video_duration": 40.635,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7655278510319422741?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2535
+          "score": 2542
         },
         {
           "video_id": "7654153229319654676",
           "username": "fajarindahotomotif",
           "video_caption": "Dijamin langsung nengok pas di jalan! #fajarindahknalpot #fajarindahotomotif #grand #hondagrand #grandgank🚀",
           "video_create_datetime": "2026-06-22T10:00:00",
-          "video_views_count": 2519,
+          "video_views_count": 2531,
           "video_likes": 19,
           "video_shares": 0,
           "video_comments": 6,
@@ -2320,31 +2303,48 @@
           "video_average_time_watched": 11.12,
           "video_duration": 41.936,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7654153229319654676?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2653
+          "score": 2665
+        },
+        {
+          "video_id": "7664925583108771090",
+          "username": "fajarindahotomotif",
+          "video_caption": "Gaya gacor tapi knalpot bocor! #rxking #rxkingindonesia #knalpot2tak #tipsotomotif #fajarindahotomotif",
+          "video_create_datetime": "2026-07-21T11:00:00",
+          "video_views_count": 2862,
+          "video_likes": 37,
+          "video_shares": 12,
+          "video_comments": 9,
+          "video_favorites": 4,
+          "video_reach": 0,
+          "video_new_followers": 1,
+          "video_average_time_watched": 13.16,
+          "video_duration": 35.202,
+          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7664925583108771090?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
+          "score": 3123
         },
         {
           "video_id": "7663759482794609928",
           "username": "fajarindahotomotif",
           "video_caption": "Replying to @Vicky 027 Nih bang kualitasnya ga main main, langsung aja checkout sekarangg!! #rxking #rxkingindonesia #rxking135cc #knalpot2tak #fajarindahotomotif ",
           "video_create_datetime": "2026-07-19T10:00:00",
-          "video_views_count": 3196,
-          "video_likes": 61,
+          "video_views_count": 3515,
+          "video_likes": 67,
           "video_shares": 0,
-          "video_comments": 5,
-          "video_favorites": 11,
+          "video_comments": 6,
+          "video_favorites": 12,
           "video_reach": 1764,
           "video_new_followers": 3,
-          "video_average_time_watched": 9.43,
+          "video_average_time_watched": 9.39,
           "video_duration": 20.2,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663759482794609928?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 3482
+          "score": 3822
         },
         {
           "video_id": "7662321285023747349",
           "username": "fajarindahotomotif",
           "video_caption": "Nabung berbulan-bulan, dapetnya pajangan! #supragank🚀 #supramodifikasi #suprakph #knalpotdanapelajar #fajarindahotomotif",
           "video_create_datetime": "2026-07-14T10:00:04",
-          "video_views_count": 3887,
+          "video_views_count": 3914,
           "video_likes": 43,
           "video_shares": 0,
           "video_comments": 1,
@@ -2354,24 +2354,24 @@
           "video_average_time_watched": 11.2,
           "video_duration": 38.337,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7662321285023747349?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 3995
+          "score": 4022
         },
         {
           "video_id": "7663775508286508308",
           "username": "fajarindahotomotif",
           "video_caption": "Knalpot kalengan, bikin rugi bulanan! #astreagrand #grandgank🚀 #grandmodifikasi #tipsotomotif #fajarindahotomotif",
           "video_create_datetime": "2026-07-18T10:00:00",
-          "video_views_count": 3975,
+          "video_views_count": 4042,
           "video_likes": 33,
           "video_shares": 1,
           "video_comments": 3,
           "video_favorites": 0,
           "video_reach": 3355,
           "video_new_followers": 3,
-          "video_average_time_watched": 11.48,
+          "video_average_time_watched": 11.44,
           "video_duration": 38.313,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663775508286508308?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 4080
+          "score": 4147
         }
       ],
       "viral": {
@@ -2379,8 +2379,8 @@
         "username": "fajarindahotomotif",
         "video_caption": "Katanya tinggal pasang, ujung-ujungnya cuman jadi pajangan!! #glgank🤙 #glpro #glmodifikasi #pnp #fajarindahotomotif",
         "video_create_datetime": "2026-07-08T10:00:00",
-        "video_views_count": 66651,
-        "video_likes": 1190,
+        "video_views_count": 66812,
+        "video_likes": 1192,
         "video_shares": 38,
         "video_comments": 18,
         "video_favorites": 85,
@@ -2389,16 +2389,16 @@
         "video_average_time_watched": 17.9,
         "video_duration": 38.476,
         "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7660087938302201109?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-        "score": 71172
+        "score": 71335
       },
       "weekdayAvg": [
-        12201.8,
-        12379.6,
-        22573,
-        13429.25,
-        11392,
-        16512.75,
-        5021
+        12271.2,
+        12606,
+        22648.25,
+        13653.25,
+        11551,
+        16582.25,
+        5140
       ],
       "ageDist": [
         {
@@ -2458,15 +2458,15 @@
           "pct": 0.2
         },
         {
-          "label": "SG",
+          "label": "JP",
+          "pct": 0.1
+        },
+        {
+          "label": "PH",
           "pct": 0.1
         },
         {
           "label": "IN",
-          "pct": 0.1
-        },
-        {
-          "label": "KR",
           "pct": 0.1
         }
       ],
@@ -2847,6 +2847,19 @@
           "video_views": 14474,
           "profile_views": 288,
           "engaged_audience": 298
+        },
+        {
+          "date": "2026-07-21",
+          "username": "fajarindahotomotif",
+          "followers_count": 0,
+          "total_followers_count": 14402,
+          "likes": 271,
+          "shares": 10,
+          "comments": 8,
+          "unique_video_views": 0,
+          "video_views": 17728,
+          "profile_views": 391,
+          "engaged_audience": 0
         }
       ],
       "dailyPrev": [
@@ -3247,8 +3260,8 @@
           "username": "fajarindahotomotif",
           "video_caption": "Katanya tinggal pasang, ujung-ujungnya cuman jadi pajangan!! #glgank🤙 #glpro #glmodifikasi #pnp #fajarindahotomotif",
           "video_create_datetime": "2026-07-08T10:00:00",
-          "video_views_count": 66651,
-          "video_likes": 1190,
+          "video_views_count": 66812,
+          "video_likes": 1192,
           "video_shares": 38,
           "video_comments": 18,
           "video_favorites": 85,
@@ -3257,32 +3270,32 @@
           "video_average_time_watched": 17.9,
           "video_duration": 38.476,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7660087938302201109?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 71172
+          "score": 71335
         },
         {
           "video_id": "7661181996126719253",
           "username": "fajarindahotomotif",
           "video_caption": "Tarikan berat, bikin tenaga sekarat! #rxkingindonesia #rxkingmodifikasi #rxking135cc #knalpot2tak #fajarindahotomotif",
           "video_create_datetime": "2026-07-11T10:00:00",
-          "video_views_count": 53575,
-          "video_likes": 1031,
+          "video_views_count": 53763,
+          "video_likes": 1033,
           "video_shares": 49,
           "video_comments": 26,
-          "video_favorites": 65,
+          "video_favorites": 64,
           "video_reach": 47168,
           "video_new_followers": 59,
           "video_average_time_watched": 18.13,
           "video_duration": 44.954,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7661181996126719253?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 57349
+          "score": 57524
         },
         {
           "video_id": "7659714677726825748",
           "username": "fajarindahotomotif",
           "video_caption": "Kilaunya cepat habis, efek chrome selapis! #cb125se #cbgank🤙 #cbindonesia #knalpotcb #fajarindahotomotif",
           "video_create_datetime": "2026-07-07T10:00:00",
-          "video_views_count": 48342,
-          "video_likes": 977,
+          "video_views_count": 48596,
+          "video_likes": 983,
           "video_shares": 88,
           "video_comments": 7,
           "video_favorites": 54,
@@ -3291,67 +3304,67 @@
           "video_average_time_watched": 17.59,
           "video_duration": 40.612,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7659714677726825748?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 52445
+          "score": 52705
         },
         {
           "video_id": "7656756023847308564",
           "username": "fajarindahotomotif",
           "video_caption": "hari gini masih make knalpot yang karatan luar dalem? #astreagrand #grandgank🚀 #grandindonesia #knalpotkaratan #fajarindahotomotif",
           "video_create_datetime": "2026-06-29T10:03:58",
-          "video_views_count": 44658,
-          "video_likes": 576,
+          "video_views_count": 44858,
+          "video_likes": 580,
           "video_shares": 46,
           "video_comments": 14,
-          "video_favorites": 66,
+          "video_favorites": 67,
           "video_reach": 40417,
           "video_new_followers": 45,
           "video_average_time_watched": 14.95,
           "video_duration": 54.544,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7656756023847308564?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 47676
+          "score": 47895
         },
         {
           "video_id": "7663078921272872212",
           "username": "fajarindahotomotif",
           "video_caption": "Saringan loss tenaga ngempos! #glgank🤙 #glpro #glmodifikasi #knalpotgl #fajarindahotomotif",
           "video_create_datetime": "2026-07-16T11:00:04",
-          "video_views_count": 24383,
-          "video_likes": 569,
+          "video_views_count": 25007,
+          "video_likes": 589,
           "video_shares": 23,
           "video_comments": 10,
-          "video_favorites": 33,
+          "video_favorites": 37,
           "video_reach": 19115,
-          "video_new_followers": 14,
-          "video_average_time_watched": 17.72,
+          "video_new_followers": 17,
+          "video_average_time_watched": 17.67,
           "video_duration": 37.756,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663078921272872212?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 26003
+          "score": 26767
         },
         {
           "video_id": "7660828199068208405",
           "username": "fajarindahotomotif",
           "video_caption": "Jangan sampai beli murah, tapi dapetnya sampah! #astreagrandindonesia #grandgank🚀 #astreagrand #grandmodifikasi #fajarindahotomotif",
           "video_create_datetime": "2026-07-10T10:00:00",
-          "video_views_count": 22119,
-          "video_likes": 250,
-          "video_shares": 39,
+          "video_views_count": 22446,
+          "video_likes": 256,
+          "video_shares": 40,
           "video_comments": 3,
-          "video_favorites": 31,
+          "video_favorites": 32,
           "video_reach": 19458,
           "video_new_followers": 12,
           "video_average_time_watched": 14.35,
           "video_duration": 38.685,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7660828199068208405?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 23542
+          "score": 23902
         },
         {
           "video_id": "7657859316204047634",
           "username": "fajarindahotomotif",
           "video_caption": "Solusi motor di medan tanjakan! #hondawin #win100 #hondawinindonesia #knalpotchrome #fajarindahotomotif",
           "video_create_datetime": "2026-07-02T10:00:00",
-          "video_views_count": 19769,
-          "video_likes": 393,
-          "video_shares": 12,
+          "video_views_count": 20024,
+          "video_likes": 399,
+          "video_shares": 13,
           "video_comments": 5,
           "video_favorites": 46,
           "video_reach": 17807,
@@ -3359,14 +3372,14 @@
           "video_average_time_watched": 13.22,
           "video_duration": 35.945,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7657859316204047634?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 21616
+          "score": 21889
         },
         {
           "video_id": "7658239372780686613",
           "username": "fajarindahotomotif",
           "video_caption": "Beli knalpot kok rugi 2x ?! #astreagrand #grandgank🚀 #grandindonesia #knalpotchrome #fajarindahotomotif",
           "video_create_datetime": "2026-07-03T10:00:06",
-          "video_views_count": 15019,
+          "video_views_count": 15045,
           "video_likes": 170,
           "video_shares": 9,
           "video_comments": 4,
@@ -3376,14 +3389,14 @@
           "video_average_time_watched": 14.83,
           "video_duration": 40.775,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7658239372780686613?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 15922
+          "score": 15948
         },
         {
           "video_id": "7654893037054659861",
           "username": "fajarindahotomotif",
           "video_caption": "Knalpot aman, riding tenang! #pressmachine #cb125se #cbgank🤙 #fajarindahotomotif #fajarindahknalpot",
           "video_create_datetime": "2026-06-24T10:00:00",
-          "video_views_count": 9333,
+          "video_views_count": 9346,
           "video_likes": 119,
           "video_shares": 23,
           "video_comments": 1,
@@ -3393,16 +3406,16 @@
           "video_average_time_watched": 12.42,
           "video_duration": 35.272,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7654893037054659861?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 9963
+          "score": 9976
         },
         {
           "video_id": "7657501014618082581",
           "username": "fajarindahotomotif",
           "video_caption": "Pilih knalpot jangan ketipu kinclongnya, cek dulu berapa lapis chrome nya! #astreagrand #grandgank🚀 #grandindonesia #knalpotchrome#fajarindahotomotif",
           "video_create_datetime": "2026-07-01T10:14:55",
-          "video_views_count": 9230,
+          "video_views_count": 9252,
           "video_likes": 86,
-          "video_shares": 10,
+          "video_shares": 11,
           "video_comments": 2,
           "video_favorites": 8,
           "video_reach": 8702,
@@ -3410,15 +3423,15 @@
           "video_average_time_watched": 13.29,
           "video_duration": 42.749,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7657501014618082581?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 9616
+          "score": 9650
         },
         {
           "video_id": "7655984766608592149",
           "username": "fajarindahotomotif",
           "video_caption": "Membalas @Dzaki Dany langsung checkout sekarang ya bangg#fajarindahotomotif #fajarindahknalpot #smash #smashnew #suzukismash ",
           "video_create_datetime": "2026-06-28T10:00:00",
-          "video_views_count": 7946,
-          "video_likes": 110,
+          "video_views_count": 8051,
+          "video_likes": 111,
           "video_shares": 2,
           "video_comments": 12,
           "video_favorites": 19,
@@ -3427,31 +3440,14 @@
           "video_average_time_watched": 7.66,
           "video_duration": 22.174,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7655984766608592149?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 8765
-        },
-        {
-          "video_id": "7661941135992048916",
-          "username": "fajarindahotomotif",
-          "video_caption": "Knalpot keropos, bensin boros! #karisma #karisma125 #karisma125modifikasi #bensinboros #fajarindahotomotif",
-          "video_create_datetime": "2026-07-13T10:00:00",
-          "video_views_count": 7196,
-          "video_likes": 68,
-          "video_shares": 7,
-          "video_comments": 1,
-          "video_favorites": 10,
-          "video_reach": 6583,
-          "video_new_followers": 4,
-          "video_average_time_watched": 15.18,
-          "video_duration": 47.718,
-          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7661941135992048916?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 7578
+          "score": 8871
         },
         {
           "video_id": "7658581381575970066",
           "username": "fajarindahotomotif",
           "video_caption": "Replying to @𝓓𝓪𝓷𝓮𝓷𝓭𝓻𝓪 gass langsung co sekarang bangg!!#supra #hondasupra #supragank🚀 #fajarindahotomotif #fajarindahknalpot ",
           "video_create_datetime": "2026-07-05T10:00:00",
-          "video_views_count": 7106,
+          "video_views_count": 7147,
           "video_likes": 67,
           "video_shares": 2,
           "video_comments": 3,
@@ -3461,15 +3457,32 @@
           "video_average_time_watched": 7.62,
           "video_duration": 22.313,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7658581381575970066?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 7572
+          "score": 7613
+        },
+        {
+          "video_id": "7661941135992048916",
+          "username": "fajarindahotomotif",
+          "video_caption": "Knalpot keropos, bensin boros! #karisma #karisma125 #karisma125modifikasi #bensinboros #fajarindahotomotif",
+          "video_create_datetime": "2026-07-13T10:00:00",
+          "video_views_count": 7229,
+          "video_likes": 68,
+          "video_shares": 7,
+          "video_comments": 1,
+          "video_favorites": 10,
+          "video_reach": 6583,
+          "video_new_followers": 4,
+          "video_average_time_watched": 14.67,
+          "video_duration": 47.718,
+          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7661941135992048916?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
+          "score": 7611
         },
         {
           "video_id": "7660465866106227988",
           "username": "fajarindahotomotif",
           "video_caption": "Knalpot rongsok, bikin nombok! #bladenew #bladegank🚀 #blademodifikasi #knalpot #fajarindahotomotif",
           "video_create_datetime": "2026-07-09T10:00:08",
-          "video_views_count": 7193,
-          "video_likes": 67,
+          "video_views_count": 7203,
+          "video_likes": 68,
           "video_shares": 5,
           "video_comments": 2,
           "video_favorites": 5,
@@ -3478,14 +3491,14 @@
           "video_average_time_watched": 10.98,
           "video_duration": 40.38,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7660465866106227988?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 7555
+          "score": 7566
         },
         {
           "video_id": "7658582764521934101",
           "username": "fajarindahotomotif",
           "video_caption": "Solusi motor ganteng anti dekil! #hondawin #hondawinindonesia #win100 #win100modifkasiclassicindonesia #fajarindahotomotif",
           "video_create_datetime": "2026-07-04T10:00:00",
-          "video_views_count": 6478,
+          "video_views_count": 6492,
           "video_likes": 66,
           "video_shares": 0,
           "video_comments": 1,
@@ -3495,14 +3508,14 @@
           "video_average_time_watched": 13.01,
           "video_duration": 47.485,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7658582764521934101?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 6679
+          "score": 6693
         },
         {
           "video_id": "7657126188334189845",
           "username": "fajarindahotomotif",
           "video_caption": "Supra warisan Bapak, jangan di biarin berkerak! #supra #hondasupra#suprabapak #knalpotkaratan #fajarindahotomotif",
           "video_create_datetime": "2026-06-30T10:00:23",
-          "video_views_count": 5434,
+          "video_views_count": 5438,
           "video_likes": 53,
           "video_shares": 10,
           "video_comments": 4,
@@ -3512,15 +3525,15 @@
           "video_average_time_watched": 10.62,
           "video_duration": 31.139,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7657126188334189845?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 5762
+          "score": 5766
         },
         {
           "video_id": "7662686193154297109",
           "username": "fajarindahotomotif",
           "video_caption": "Gak malu diketawain orang pas Jamda pake knalpot kusam?! #jamdarxking #jamda1stjatim #rxkingindonesia #rxking #fajarindahotomotif",
           "video_create_datetime": "2026-07-15T10:00:00",
-          "video_views_count": 5078,
-          "video_likes": 93,
+          "video_views_count": 5183,
+          "video_likes": 98,
           "video_shares": 10,
           "video_comments": 3,
           "video_favorites": 7,
@@ -3529,14 +3542,31 @@
           "video_average_time_watched": 12.37,
           "video_duration": 41.936,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7662686193154297109?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 5476
+          "score": 5586
+        },
+        {
+          "video_id": "7663435709314911508",
+          "username": "fajarindahotomotif",
+          "video_caption": "Efek chrome asal-asalan, baru sebulan karatan! #cb125se #cbgank🤙 #cbindonesia #knalpotcb #fajarindahotomotif",
+          "video_create_datetime": "2026-07-17T10:04:36",
+          "video_views_count": 4873,
+          "video_likes": 64,
+          "video_shares": 17,
+          "video_comments": 1,
+          "video_favorites": 4,
+          "video_reach": 3419,
+          "video_new_followers": 1,
+          "video_average_time_watched": 13.87,
+          "video_duration": 44.978,
+          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663435709314911508?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
+          "score": 5221
         },
         {
           "video_id": "7659356720673623316",
           "username": "fajarindahotomotif",
           "video_caption": "Niatnya irit di-las sana sini, malah boncos berkali-kali!! #grandgank🚀 #astreagrand #astreagrandindonesia #knalpotbocor #fajarindahotomotif",
           "video_create_datetime": "2026-07-06T10:16:00",
-          "video_views_count": 4922,
+          "video_views_count": 4939,
           "video_likes": 35,
           "video_shares": 3,
           "video_comments": 1,
@@ -3546,31 +3576,14 @@
           "video_average_time_watched": 8.01,
           "video_duration": 42.005,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7659356720673623316?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 5098
-        },
-        {
-          "video_id": "7663435709314911508",
-          "username": "fajarindahotomotif",
-          "video_caption": "Efek chrome asal-asalan, baru sebulan karatan! #cb125se #cbgank🤙 #cbindonesia #knalpotcb #fajarindahotomotif",
-          "video_create_datetime": "2026-07-17T10:04:36",
-          "video_views_count": 4598,
-          "video_likes": 62,
-          "video_shares": 17,
-          "video_comments": 1,
-          "video_favorites": 4,
-          "video_reach": 3419,
-          "video_new_followers": 1,
-          "video_average_time_watched": 13.95,
-          "video_duration": 44.978,
-          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663435709314911508?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 4944
+          "score": 5115
         },
         {
           "video_id": "7655627475648548116",
           "username": "fajarindahotomotif",
           "video_caption": "TAUKAN KENAPA HARUS FAJAR INDAH OTOMOTIF ! INI DIA  ... #cbindonesia #WIN #pitunggank🤙#cb125se  #fajarindahotomotif",
           "video_create_datetime": "2026-06-26T10:00:00",
-          "video_views_count": 3832,
+          "video_views_count": 3840,
           "video_likes": 41,
           "video_shares": 16,
           "video_comments": 3,
@@ -3580,31 +3593,31 @@
           "video_average_time_watched": 8.44,
           "video_duration": 27.075,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7655627475648548116?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 4180
+          "score": 4188
         },
         {
           "video_id": "7663775508286508308",
           "username": "fajarindahotomotif",
           "video_caption": "Knalpot kalengan, bikin rugi bulanan! #astreagrand #grandgank🚀 #grandmodifikasi #tipsotomotif #fajarindahotomotif",
           "video_create_datetime": "2026-07-18T10:00:00",
-          "video_views_count": 3975,
+          "video_views_count": 4042,
           "video_likes": 33,
           "video_shares": 1,
           "video_comments": 3,
           "video_favorites": 0,
           "video_reach": 3355,
           "video_new_followers": 3,
-          "video_average_time_watched": 11.48,
+          "video_average_time_watched": 11.44,
           "video_duration": 38.313,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663775508286508308?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 4080
+          "score": 4147
         },
         {
           "video_id": "7662321285023747349",
           "username": "fajarindahotomotif",
           "video_caption": "Nabung berbulan-bulan, dapetnya pajangan! #supragank🚀 #supramodifikasi #suprakph #knalpotdanapelajar #fajarindahotomotif",
           "video_create_datetime": "2026-07-14T10:00:04",
-          "video_views_count": 3887,
+          "video_views_count": 3914,
           "video_likes": 43,
           "video_shares": 0,
           "video_comments": 1,
@@ -3614,31 +3627,48 @@
           "video_average_time_watched": 11.2,
           "video_duration": 38.337,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7662321285023747349?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 3995
+          "score": 4022
         },
         {
           "video_id": "7663759482794609928",
           "username": "fajarindahotomotif",
           "video_caption": "Replying to @Vicky 027 Nih bang kualitasnya ga main main, langsung aja checkout sekarangg!! #rxking #rxkingindonesia #rxking135cc #knalpot2tak #fajarindahotomotif ",
           "video_create_datetime": "2026-07-19T10:00:00",
-          "video_views_count": 3196,
-          "video_likes": 61,
+          "video_views_count": 3515,
+          "video_likes": 67,
           "video_shares": 0,
-          "video_comments": 5,
-          "video_favorites": 11,
+          "video_comments": 6,
+          "video_favorites": 12,
           "video_reach": 1764,
           "video_new_followers": 3,
-          "video_average_time_watched": 9.43,
+          "video_average_time_watched": 9.39,
           "video_duration": 20.2,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7663759482794609928?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 3482
+          "score": 3822
+        },
+        {
+          "video_id": "7664925583108771090",
+          "username": "fajarindahotomotif",
+          "video_caption": "Gaya gacor tapi knalpot bocor! #rxking #rxkingindonesia #knalpot2tak #tipsotomotif #fajarindahotomotif",
+          "video_create_datetime": "2026-07-21T11:00:00",
+          "video_views_count": 2862,
+          "video_likes": 37,
+          "video_shares": 12,
+          "video_comments": 9,
+          "video_favorites": 4,
+          "video_reach": 0,
+          "video_new_followers": 1,
+          "video_average_time_watched": 13.16,
+          "video_duration": 35.202,
+          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7664925583108771090?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
+          "score": 3123
         },
         {
           "video_id": "7654153229319654676",
           "username": "fajarindahotomotif",
           "video_caption": "Dijamin langsung nengok pas di jalan! #fajarindahknalpot #fajarindahotomotif #grand #hondagrand #grandgank🚀",
           "video_create_datetime": "2026-06-22T10:00:00",
-          "video_views_count": 2519,
+          "video_views_count": 2531,
           "video_likes": 19,
           "video_shares": 0,
           "video_comments": 6,
@@ -3648,14 +3678,14 @@
           "video_average_time_watched": 11.12,
           "video_duration": 41.936,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7654153229319654676?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2653
+          "score": 2665
         },
         {
           "video_id": "7655278510319422741",
           "username": "fajarindahotomotif",
           "video_caption": "Knalpot nguning bikin pening... !!! #grand #astreagrandindonesia #astreagrand #fajarindahotomotif",
           "video_create_datetime": "2026-06-25T11:00:00",
-          "video_views_count": 2372,
+          "video_views_count": 2379,
           "video_likes": 38,
           "video_shares": 0,
           "video_comments": 4,
@@ -3665,14 +3695,14 @@
           "video_average_time_watched": 10.08,
           "video_duration": 40.635,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7655278510319422741?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2535
+          "score": 2542
         },
         {
           "video_id": "7654534230722055432",
           "username": "fajarindahotomotif",
           "video_caption": "Main motor itu soal selera, tapi milih knalpot itu soal lu berada di level mana. #lasercutting #glpro #glgank🤙 #fajarindahotomotif #fajarindahknalpot",
           "video_create_datetime": "2026-06-23T10:22:21",
-          "video_views_count": 2209,
+          "video_views_count": 2220,
           "video_likes": 31,
           "video_shares": 4,
           "video_comments": 0,
@@ -3682,14 +3712,14 @@
           "video_average_time_watched": 7.38,
           "video_duration": 30.117,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7654534230722055432?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2368
+          "score": 2379
         },
         {
           "video_id": "7655984980694142229",
           "username": "fajarindahotomotif",
           "video_caption": "Nunggu knalpot bolong baru nyesel?#legenda #astrealegenda #astreagrandindonesia #honda #fajarindahotomotif",
           "video_create_datetime": "2026-06-27T10:00:00",
-          "video_views_count": 2023,
+          "video_views_count": 2032,
           "video_likes": 19,
           "video_shares": 17,
           "video_comments": 2,
@@ -3699,31 +3729,14 @@
           "video_average_time_watched": 7.65,
           "video_duration": 37.734,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7655984980694142229?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2336
-        },
-        {
-          "video_id": "7664925583108771090",
-          "username": "fajarindahotomotif",
-          "video_caption": "Gaya gacor tapi knalpot bocor! #rxking #rxkingindonesia #knalpot2tak #tipsotomotif #fajarindahotomotif",
-          "video_create_datetime": "2026-07-21T11:00:00",
-          "video_views_count": 2026,
-          "video_likes": 30,
-          "video_shares": 12,
-          "video_comments": 4,
-          "video_favorites": 4,
-          "video_reach": 0,
-          "video_new_followers": 0,
-          "video_average_time_watched": 13.46,
-          "video_duration": 35.202,
-          "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7664925583108771090?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 2260
+          "score": 2345
         },
         {
           "video_id": "7661179632036711687",
           "username": "fajarindahotomotif",
           "video_caption": "Replying to @ILH4M🍀🍀 gass kak langsungkan checkout sekarang !! #karisma #hondakharisma #karismamodifikasi #knalpot #fajarindahotomotif ",
           "video_create_datetime": "2026-07-12T10:00:00",
-          "video_views_count": 1836,
+          "video_views_count": 1847,
           "video_likes": 13,
           "video_shares": 0,
           "video_comments": 1,
@@ -3733,48 +3746,48 @@
           "video_average_time_watched": 6.79,
           "video_duration": 21.803,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7661179632036711687?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1959
+          "score": 1970
         },
         {
           "video_id": "7664531673526111509",
           "username": "fajarindahotomotif",
           "video_caption": "Tarikan brebet, digas macet! #hondawin #win100 #win100modifkasiclassicindonesia #motorbrebet #fajarindahotomotif",
           "video_create_datetime": "2026-07-20T10:00:00",
-          "video_views_count": 1714,
-          "video_likes": 33,
+          "video_views_count": 1799,
+          "video_likes": 34,
           "video_shares": 1,
           "video_comments": 0,
-          "video_favorites": 2,
+          "video_favorites": 3,
           "video_reach": 1091,
           "video_new_followers": 1,
-          "video_average_time_watched": 10.41,
+          "video_average_time_watched": 10.54,
           "video_duration": 38.871,
           "video_share_url": "https://www.tiktok.com/@fajarindahotomotif/video/7664531673526111509?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1809
+          "score": 1910
         }
       ],
       "m": {
-        "views": 698582,
-        "viewsGrowth": 47.804248476641845,
+        "views": 716310,
+        "viewsGrowth": 51.55509478672986,
         "reach": 559753,
         "reachGrowth": 63.48499363295442,
-        "likes": 10258,
-        "likesGrowth": 81.5575221238938,
-        "savesOrFav": 520,
-        "savesGrowth": 9.936575052854122,
-        "shares": 561,
-        "sharesGrowth": -26.184210526315788,
-        "comments": 392,
-        "commentsGrowth": 103.10880829015545,
-        "newFollowers": 547,
-        "newFollowersGrowth": 26.32794457274827,
-        "er": 1.6048223401118265,
+        "likes": 10529,
+        "likesGrowth": 86.35398230088495,
+        "savesOrFav": 527,
+        "savesGrowth": 11.181434599156118,
+        "shares": 571,
+        "sharesGrowth": -24.86842105263158,
+        "comments": 400,
+        "commentsGrowth": 107.25388601036269,
+        "newFollowers": 558,
+        "newFollowersGrowth": 28.868360277136258,
+        "er": 1.6054501542628192,
         "erPrev": 1.3970463777928233,
         "benchmark": 1.37,
-        "vsBenchmarkPts": 0.23482234011182634,
-        "avgViewPerDay": 24089.03448275862,
-        "viralScore": 71172,
-        "viralViews": 66651
+        "vsBenchmarkPts": 0.23545015426281912,
+        "avgViewPerDay": 23877,
+        "viralScore": 71335,
+        "viralViews": 66812
       }
     },
     "tiktok2": {
@@ -3783,18 +3796,18 @@
       "label": "TikTok 2 — Fiotomotif",
       "handle": "@fiotomotiff",
       "color": "tt2",
-      "followersTotal": 1758,
-      "videosCount": 426,
-      "totalLikesAllTime": 25199,
+      "followersTotal": 1762,
+      "videosCount": 427,
+      "totalLikesAllTime": 25216,
       "curTotals": {
-        "views": 47204,
-        "likes": 752,
-        "shares": 70,
+        "views": 49596,
+        "likes": 789,
+        "shares": 71,
         "comments": 8,
-        "profileViews": 656,
+        "profileViews": 681,
         "engaged": 0,
         "uniqueViews": 0,
-        "days": 29
+        "days": 30
       },
       "prevTotals": {
         "views": 108219,
@@ -3806,16 +3819,16 @@
         "uniqueViews": 0,
         "days": 30
       },
-      "netFollowersCur": 19,
+      "netFollowersCur": 23,
       "netFollowersPrev": 84,
       "buckets": {
         "<20 dtk": {
           "count": 20,
-          "views": 15245
+          "views": 15703
         },
         "20-40 dtk": {
           "count": 10,
-          "views": 4744
+          "views": 4799
         },
         ">40 dtk": {
           "count": 0,
@@ -3828,24 +3841,24 @@
           "username": "fiotomotiff",
           "video_caption": "gara gara rabun, tag temen kalian yang rabun juga!! #fajarindah #fajarindahotomotif #rabun #salahpaham #smashtitan",
           "video_create_datetime": "2026-07-18T11:00:00",
-          "video_views_count": 6497,
-          "video_likes": 18,
+          "video_views_count": 6888,
+          "video_likes": 19,
           "video_shares": 0,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 5289,
           "video_new_followers": 0,
-          "video_average_time_watched": 13.52,
+          "video_average_time_watched": 13.42,
           "video_duration": 17.7,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663760655454915861?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 6515
+          "score": 6907
         },
         {
           "video_id": "7655626632039959829",
           "username": "fiotomotiff",
           "video_caption": "CO knalpot butuh Hotspot #fajarindah #fajarindahotomotif #hotspot #promo #hondawin",
           "video_create_datetime": "2026-06-26T10:00:00",
-          "video_views_count": 1335,
+          "video_views_count": 1337,
           "video_likes": 26,
           "video_shares": 3,
           "video_comments": 0,
@@ -3855,14 +3868,14 @@
           "video_average_time_watched": 9.02,
           "video_duration": 29.434,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7655626632039959829?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1417
+          "score": 1419
         },
         {
           "video_id": "7658576919679520020",
           "username": "fiotomotiff",
           "video_caption": "muter baut kak bukan muter badan #fajarindah #fajarindahotomotif #honda #prima #kocak",
           "video_create_datetime": "2026-07-04T10:00:00",
-          "video_views_count": 1029,
+          "video_views_count": 1032,
           "video_likes": 16,
           "video_shares": 4,
           "video_comments": 1,
@@ -3872,14 +3885,14 @@
           "video_average_time_watched": 8.93,
           "video_duration": 14.315,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7658576919679520020?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1128
+          "score": 1131
         },
         {
           "video_id": "7658239434005024021",
           "username": "fiotomotiff",
           "video_caption": "glowing seknalpot dan orangnya #fajarindahotomotif #fajarindah #yamaha #vixion ##cb",
           "video_create_datetime": "2026-07-03T10:00:23",
-          "video_views_count": 922,
+          "video_views_count": 924,
           "video_likes": 9,
           "video_shares": 2,
           "video_comments": 0,
@@ -3889,14 +3902,14 @@
           "video_average_time_watched": 11.99,
           "video_duration": 30.681,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7658239434005024021?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 955
+          "score": 957
         },
         {
           "video_id": "7656755485755854100",
           "username": "fiotomotiff",
           "video_caption": "dah dibilang packing muffler malah keder  #karyawantaduk #fajarindahotomotif #fajarindah #honda #win",
           "video_create_datetime": "2026-06-29T10:01:52",
-          "video_views_count": 900,
+          "video_views_count": 901,
           "video_likes": 10,
           "video_shares": 0,
           "video_comments": 0,
@@ -3906,14 +3919,14 @@
           "video_average_time_watched": 10.1,
           "video_duration": 15.834,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7656755485755854100?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 950
+          "score": 951
         },
         {
           "video_id": "7657857970365058325",
           "username": "fiotomotiff",
           "video_caption": "orderan knalpot membludak #fajarindah #fajarindahotomotif #win #hondawin #cb",
           "video_create_datetime": "2026-07-02T10:00:00",
-          "video_views_count": 759,
+          "video_views_count": 760,
           "video_likes": 17,
           "video_shares": 0,
           "video_comments": 0,
@@ -3923,14 +3936,14 @@
           "video_average_time_watched": 7.23,
           "video_duration": 10,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7657857970365058325?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 816
+          "score": 817
         },
         {
           "video_id": "7660467538073111828",
           "username": "fiotomotiff",
           "video_caption": "banyak minusnya  #fajarindah #fajarindahotomotif #minus #win #hondawin",
           "video_create_datetime": "2026-07-09T10:06:34",
-          "video_views_count": 704,
+          "video_views_count": 720,
           "video_likes": 14,
           "video_shares": 3,
           "video_comments": 0,
@@ -3940,14 +3953,14 @@
           "video_average_time_watched": 8.76,
           "video_duration": 17.834,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7660467538073111828?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 754
+          "score": 770
         },
         {
           "video_id": "7661174663439027476",
           "username": "fiotomotiff",
           "video_caption": "kalah saing banget nih kak? #fajarindah #fajarindahotomotif #salahpaham #bajuhijau #saingan #rxkingindonesia",
           "video_create_datetime": "2026-07-11T10:00:00",
-          "video_views_count": 667,
+          "video_views_count": 671,
           "video_likes": 7,
           "video_shares": 0,
           "video_comments": 2,
@@ -3957,14 +3970,14 @@
           "video_average_time_watched": 9.95,
           "video_duration": 12.867,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7661174663439027476?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 714
+          "score": 718
         },
         {
           "video_id": "7662687690835381525",
           "username": "fiotomotiff",
           "video_caption": "cewe kalian suka gini ga? #fajarindah #fajarindahotomotif #terserah #rxkingindonesia #win",
           "video_create_datetime": "2026-07-15T10:00:00",
-          "video_views_count": 516,
+          "video_views_count": 522,
           "video_likes": 6,
           "video_shares": 0,
           "video_comments": 0,
@@ -3974,24 +3987,24 @@
           "video_average_time_watched": 9.68,
           "video_duration": 14.5,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7662687690835381525?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 522
+          "score": 528
         },
         {
           "video_id": "7663441693374582037",
           "username": "fiotomotiff",
           "video_caption": "melek dulu kak baru kerja #fajarindah #fajarindahotomotif #polesmesin #honda #astreagrandindonesia",
           "video_create_datetime": "2026-07-17T11:00:00",
-          "video_views_count": 350,
+          "video_views_count": 358,
           "video_likes": 8,
           "video_shares": 12,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 296,
           "video_new_followers": 0,
-          "video_average_time_watched": 10.16,
+          "video_average_time_watched": 10.07,
           "video_duration": 19.034,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663441693374582037?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 502
+          "score": 510
         }
       ],
       "bottom10": [
@@ -4034,7 +4047,7 @@
           "username": "fiotomotiff",
           "video_caption": "ada yang digital marketing juga ga disini? #fajarindah #fajarindahotomotif #digitalmarketing #cbindonesia #cb125se",
           "video_create_datetime": "2026-06-27T10:00:00",
-          "video_views_count": 219,
+          "video_views_count": 220,
           "video_likes": 3,
           "video_shares": 0,
           "video_comments": 0,
@@ -4044,14 +4057,14 @@
           "video_average_time_watched": 7.02,
           "video_duration": 25.867,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7655956451453635860?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 222
+          "score": 223
         },
         {
           "video_id": "7657497637226040597",
           "username": "fiotomotiff",
           "video_caption": "pegangan apa ya biar ga pusing #fajarindah #fajarindahotomotif #honda #cbindonesia #peganganpintu",
           "video_create_datetime": "2026-07-01T10:01:48",
-          "video_views_count": 243,
+          "video_views_count": 244,
           "video_likes": 3,
           "video_shares": 0,
           "video_comments": 0,
@@ -4061,7 +4074,7 @@
           "video_average_time_watched": 7.92,
           "video_duration": 12.567,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7657497637226040597?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 246
+          "score": 247
         },
         {
           "video_id": "7654517844268354837",
@@ -4085,24 +4098,24 @@
           "username": "fiotomotiff",
           "video_caption": "ngeluh disamping bos #fajarindah #fajarindahotomotif #budakcorporate #honda #astreagrandindonesia",
           "video_create_datetime": "2026-07-19T11:00:00",
-          "video_views_count": 266,
+          "video_views_count": 275,
           "video_likes": 6,
           "video_shares": 0,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 218,
           "video_new_followers": 0,
-          "video_average_time_watched": 9.77,
+          "video_average_time_watched": 9.86,
           "video_duration": 26.034,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663762347655286037?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 272
+          "score": 281
         },
         {
           "video_id": "7659717696753388821",
           "username": "fiotomotiff",
           "video_caption": "udah dibilangin juga #fajarindah #fajarindahotomotif #honda #win #hondawin",
           "video_create_datetime": "2026-07-07T10:00:00",
-          "video_views_count": 292,
+          "video_views_count": 297,
           "video_likes": 2,
           "video_shares": 0,
           "video_comments": 0,
@@ -4112,14 +4125,14 @@
           "video_average_time_watched": 9.04,
           "video_duration": 17.434,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7659717696753388821?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 294
+          "score": 299
         },
         {
           "video_id": "7660088134910201109",
           "username": "fiotomotiff",
           "video_caption": "proses yang mana dulu nih jadinya... #fajarindah #fajarindahotomotif #honda #cb #cbindonesia",
           "video_create_datetime": "2026-07-08T10:00:00",
-          "video_views_count": 298,
+          "video_views_count": 302,
           "video_likes": 3,
           "video_shares": 0,
           "video_comments": 0,
@@ -4129,14 +4142,14 @@
           "video_average_time_watched": 4.41,
           "video_duration": 15.067,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7660088134910201109?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 301
+          "score": 305
         },
         {
           "video_id": "7658578112057281813",
           "username": "fiotomotiff",
           "video_caption": "tangannya di jual terpisah  #fajarindah #fajarindahotomotif #honda #win #packing",
           "video_create_datetime": "2026-07-05T10:00:00",
-          "video_views_count": 322,
+          "video_views_count": 323,
           "video_likes": 5,
           "video_shares": 0,
           "video_comments": 0,
@@ -4146,14 +4159,14 @@
           "video_average_time_watched": 10.06,
           "video_duration": 14.954,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7658578112057281813?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 327
+          "score": 328
         },
         {
           "video_id": "7662321294435749140",
           "username": "fiotomotiff",
           "video_caption": "blur nya minus berapa ini #fajarindah #fajarindahotomotif #blur #honda #cbindonesia",
           "video_create_datetime": "2026-07-14T10:00:05",
-          "video_views_count": 324,
+          "video_views_count": 328,
           "video_likes": 6,
           "video_shares": 0,
           "video_comments": 0,
@@ -4163,7 +4176,7 @@
           "video_average_time_watched": 5.38,
           "video_duration": 13.834,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7662321294435749140?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 330
+          "score": 334
         }
       ],
       "viral": {
@@ -4171,26 +4184,26 @@
         "username": "fiotomotiff",
         "video_caption": "gara gara rabun, tag temen kalian yang rabun juga!! #fajarindah #fajarindahotomotif #rabun #salahpaham #smashtitan",
         "video_create_datetime": "2026-07-18T11:00:00",
-        "video_views_count": 6497,
-        "video_likes": 18,
+        "video_views_count": 6888,
+        "video_likes": 19,
         "video_shares": 0,
         "video_comments": 0,
         "video_favorites": 0,
         "video_reach": 5289,
         "video_new_followers": 0,
-        "video_average_time_watched": 13.52,
+        "video_average_time_watched": 13.42,
         "video_duration": 17.7,
         "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663760655454915861?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-        "score": 6515
+        "score": 6907
       },
       "weekdayAvg": [
-        446.4,
-        307.4,
-        317.25,
-        541.75,
-        744.5,
-        2103,
-        348.5
+        449.6,
+        314.2,
+        320,
+        547.5,
+        748.25,
+        2202.75,
+        352.25
       ],
       "ageDist": [
         {
@@ -4246,19 +4259,19 @@
           "pct": 0.5
         },
         {
-          "label": "ZA",
-          "pct": 0.1
-        },
-        {
-          "label": "JP",
-          "pct": 0.1
-        },
-        {
           "label": "BF",
           "pct": 0.1
         },
         {
           "label": "IN",
+          "pct": 0.1
+        },
+        {
+          "label": "SG",
+          "pct": 0.1
+        },
+        {
+          "label": "ZA",
           "pct": 0.1
         }
       ],
@@ -4638,6 +4651,19 @@
           "unique_video_views": 0,
           "video_views": 1869,
           "profile_views": 18,
+          "engaged_audience": 0
+        },
+        {
+          "date": "2026-07-21",
+          "username": "fiotomotiff",
+          "followers_count": 0,
+          "total_followers_count": 1762,
+          "likes": 37,
+          "shares": 1,
+          "comments": 0,
+          "unique_video_views": 0,
+          "video_views": 2392,
+          "profile_views": 25,
           "engaged_audience": 0
         }
       ],
@@ -5039,24 +5065,24 @@
           "username": "fiotomotiff",
           "video_caption": "gara gara rabun, tag temen kalian yang rabun juga!! #fajarindah #fajarindahotomotif #rabun #salahpaham #smashtitan",
           "video_create_datetime": "2026-07-18T11:00:00",
-          "video_views_count": 6497,
-          "video_likes": 18,
+          "video_views_count": 6888,
+          "video_likes": 19,
           "video_shares": 0,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 5289,
           "video_new_followers": 0,
-          "video_average_time_watched": 13.52,
+          "video_average_time_watched": 13.42,
           "video_duration": 17.7,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663760655454915861?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 6515
+          "score": 6907
         },
         {
           "video_id": "7655626632039959829",
           "username": "fiotomotiff",
           "video_caption": "CO knalpot butuh Hotspot #fajarindah #fajarindahotomotif #hotspot #promo #hondawin",
           "video_create_datetime": "2026-06-26T10:00:00",
-          "video_views_count": 1335,
+          "video_views_count": 1337,
           "video_likes": 26,
           "video_shares": 3,
           "video_comments": 0,
@@ -5066,14 +5092,14 @@
           "video_average_time_watched": 9.02,
           "video_duration": 29.434,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7655626632039959829?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1417
+          "score": 1419
         },
         {
           "video_id": "7658576919679520020",
           "username": "fiotomotiff",
           "video_caption": "muter baut kak bukan muter badan #fajarindah #fajarindahotomotif #honda #prima #kocak",
           "video_create_datetime": "2026-07-04T10:00:00",
-          "video_views_count": 1029,
+          "video_views_count": 1032,
           "video_likes": 16,
           "video_shares": 4,
           "video_comments": 1,
@@ -5083,14 +5109,14 @@
           "video_average_time_watched": 8.93,
           "video_duration": 14.315,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7658576919679520020?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 1128
+          "score": 1131
         },
         {
           "video_id": "7658239434005024021",
           "username": "fiotomotiff",
           "video_caption": "glowing seknalpot dan orangnya #fajarindahotomotif #fajarindah #yamaha #vixion ##cb",
           "video_create_datetime": "2026-07-03T10:00:23",
-          "video_views_count": 922,
+          "video_views_count": 924,
           "video_likes": 9,
           "video_shares": 2,
           "video_comments": 0,
@@ -5100,14 +5126,14 @@
           "video_average_time_watched": 11.99,
           "video_duration": 30.681,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7658239434005024021?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 955
+          "score": 957
         },
         {
           "video_id": "7656755485755854100",
           "username": "fiotomotiff",
           "video_caption": "dah dibilang packing muffler malah keder  #karyawantaduk #fajarindahotomotif #fajarindah #honda #win",
           "video_create_datetime": "2026-06-29T10:01:52",
-          "video_views_count": 900,
+          "video_views_count": 901,
           "video_likes": 10,
           "video_shares": 0,
           "video_comments": 0,
@@ -5117,14 +5143,14 @@
           "video_average_time_watched": 10.1,
           "video_duration": 15.834,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7656755485755854100?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 950
+          "score": 951
         },
         {
           "video_id": "7657857970365058325",
           "username": "fiotomotiff",
           "video_caption": "orderan knalpot membludak #fajarindah #fajarindahotomotif #win #hondawin #cb",
           "video_create_datetime": "2026-07-02T10:00:00",
-          "video_views_count": 759,
+          "video_views_count": 760,
           "video_likes": 17,
           "video_shares": 0,
           "video_comments": 0,
@@ -5134,14 +5160,14 @@
           "video_average_time_watched": 7.23,
           "video_duration": 10,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7657857970365058325?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 816
+          "score": 817
         },
         {
           "video_id": "7660467538073111828",
           "username": "fiotomotiff",
           "video_caption": "banyak minusnya  #fajarindah #fajarindahotomotif #minus #win #hondawin",
           "video_create_datetime": "2026-07-09T10:06:34",
-          "video_views_count": 704,
+          "video_views_count": 720,
           "video_likes": 14,
           "video_shares": 3,
           "video_comments": 0,
@@ -5151,14 +5177,14 @@
           "video_average_time_watched": 8.76,
           "video_duration": 17.834,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7660467538073111828?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 754
+          "score": 770
         },
         {
           "video_id": "7661174663439027476",
           "username": "fiotomotiff",
           "video_caption": "kalah saing banget nih kak? #fajarindah #fajarindahotomotif #salahpaham #bajuhijau #saingan #rxkingindonesia",
           "video_create_datetime": "2026-07-11T10:00:00",
-          "video_views_count": 667,
+          "video_views_count": 671,
           "video_likes": 7,
           "video_shares": 0,
           "video_comments": 2,
@@ -5168,14 +5194,14 @@
           "video_average_time_watched": 9.95,
           "video_duration": 12.867,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7661174663439027476?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 714
+          "score": 718
         },
         {
           "video_id": "7662687690835381525",
           "username": "fiotomotiff",
           "video_caption": "cewe kalian suka gini ga? #fajarindah #fajarindahotomotif #terserah #rxkingindonesia #win",
           "video_create_datetime": "2026-07-15T10:00:00",
-          "video_views_count": 516,
+          "video_views_count": 522,
           "video_likes": 6,
           "video_shares": 0,
           "video_comments": 0,
@@ -5185,31 +5211,31 @@
           "video_average_time_watched": 9.68,
           "video_duration": 14.5,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7662687690835381525?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 522
+          "score": 528
         },
         {
           "video_id": "7663441693374582037",
           "username": "fiotomotiff",
           "video_caption": "melek dulu kak baru kerja #fajarindah #fajarindahotomotif #polesmesin #honda #astreagrandindonesia",
           "video_create_datetime": "2026-07-17T11:00:00",
-          "video_views_count": 350,
+          "video_views_count": 358,
           "video_likes": 8,
           "video_shares": 12,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 296,
           "video_new_followers": 0,
-          "video_average_time_watched": 10.16,
+          "video_average_time_watched": 10.07,
           "video_duration": 19.034,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663441693374582037?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 502
+          "score": 510
         },
         {
           "video_id": "7655980296244071701",
           "username": "fiotomotiff",
           "video_caption": "ini yang salah apanya sih? #fajarindah #fajarindahotomotif #honda #grand #kocak",
           "video_create_datetime": "2026-06-28T10:00:00",
-          "video_views_count": 429,
+          "video_views_count": 430,
           "video_likes": 8,
           "video_shares": 0,
           "video_comments": 0,
@@ -5219,31 +5245,31 @@
           "video_average_time_watched": 5.71,
           "video_duration": 10.967,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7655980296244071701?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 437
+          "score": 438
         },
         {
           "video_id": "7664531238941674772",
           "username": "fiotomotiff",
           "video_caption": "anak baru jadi masih kaku #fajarindah #fajarindahotomotif #anakbaru #honda #cbindonesia",
           "video_create_datetime": "2026-07-20T11:00:00",
-          "video_views_count": 390,
+          "video_views_count": 398,
           "video_likes": 8,
           "video_shares": 0,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 228,
           "video_new_followers": 0,
-          "video_average_time_watched": 11.53,
+          "video_average_time_watched": 11.43,
           "video_duration": 21.667,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7664531238941674772?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 398
+          "score": 406
         },
         {
           "video_id": "7660820743151766804",
           "username": "fiotomotiff",
           "video_caption": "diem aja dikira maling #fajarindah #fajarindahotomotif #salahpaham #kocak #hondacb",
           "video_create_datetime": "2026-07-10T10:00:00",
-          "video_views_count": 371,
+          "video_views_count": 374,
           "video_likes": 12,
           "video_shares": 0,
           "video_comments": 1,
@@ -5253,14 +5279,14 @@
           "video_average_time_watched": 11.56,
           "video_duration": 28.5,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7660820743151766804?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 383
+          "score": 386
         },
         {
           "video_id": "7661175783905316116",
           "username": "fiotomotiff",
           "video_caption": "menurut kalian motoriknya atau emang jiwanya? #fajarindah #fajarindahotomotif #rxkingindonesia #passwordwifi #motorik",
           "video_create_datetime": "2026-07-12T10:00:00",
-          "video_views_count": 377,
+          "video_views_count": 381,
           "video_likes": 4,
           "video_shares": 0,
           "video_comments": 0,
@@ -5270,31 +5296,31 @@
           "video_average_time_watched": 7.3,
           "video_duration": 17.3,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7661175783905316116?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 381
+          "score": 385
         },
         {
           "video_id": "7661934458102205716",
           "username": "fiotomotiff",
           "video_caption": "suara pukulnya sangat renyah #fajarindah #fajarindahotomotif #rxkingindonesia #kocak #filter",
           "video_create_datetime": "2026-07-13T10:00:00",
-          "video_views_count": 365,
+          "video_views_count": 370,
           "video_likes": 8,
           "video_shares": 0,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 314,
           "video_new_followers": 0,
-          "video_average_time_watched": 7.53,
+          "video_average_time_watched": 7.41,
           "video_duration": 17.367,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7661934458102205716?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 373
+          "score": 378
         },
         {
           "video_id": "7659355469869321492",
           "username": "fiotomotiff",
           "video_caption": "tegas dan berenergi ya manager kopdes ini #fajarindah #fajarindahotomotif #kopdesmerahputih #honda #win",
           "video_create_datetime": "2026-07-06T10:11:12",
-          "video_views_count": 366,
+          "video_views_count": 368,
           "video_likes": 6,
           "video_shares": 0,
           "video_comments": 0,
@@ -5304,14 +5330,31 @@
           "video_average_time_watched": 8.19,
           "video_duration": 20.016,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7659355469869321492?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 372
+          "score": 374
+        },
+        {
+          "video_id": "7663063727142456596",
+          "username": "fiotomotiff",
+          "video_caption": "semangat gosok sampai glowing #fajarindah #fajarindahotomotif #satriaf150 #suzuki #kinclong",
+          "video_create_datetime": "2026-07-16T10:01:06",
+          "video_views_count": 356,
+          "video_likes": 6,
+          "video_shares": 1,
+          "video_comments": 1,
+          "video_favorites": 0,
+          "video_reach": 300,
+          "video_new_followers": 0,
+          "video_average_time_watched": 10.47,
+          "video_duration": 20.5,
+          "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663063727142456596?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
+          "score": 374
         },
         {
           "video_id": "7657126566300060948",
           "username": "fiotomotiff",
           "video_caption": "lehernya yang mana sih gayss? #fajarindahotomotif #fajarindah #vixion #yamaha #salahpaham",
           "video_create_datetime": "2026-06-30T10:01:51",
-          "video_views_count": 353,
+          "video_views_count": 355,
           "video_likes": 6,
           "video_shares": 1,
           "video_comments": 0,
@@ -5321,31 +5364,31 @@
           "video_average_time_watched": 6.95,
           "video_duration": 10.267,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7657126566300060948?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 371
+          "score": 373
         },
         {
-          "video_id": "7663063727142456596",
+          "video_id": "7664917951795055893",
           "username": "fiotomotiff",
-          "video_caption": "semangat gosok sampai glowing #fajarindah #fajarindahotomotif #satriaf150 #suzuki #kinclong",
-          "video_create_datetime": "2026-07-16T10:01:06",
-          "video_views_count": 351,
-          "video_likes": 6,
-          "video_shares": 1,
-          "video_comments": 1,
+          "video_caption": "kalo ngantuk tidur kak #fajarindah #fajarindahotomotif #budakcorporate #honda #cbindonesia",
+          "video_create_datetime": "2026-07-21T11:00:00",
+          "video_views_count": 336,
+          "video_likes": 11,
+          "video_shares": 2,
+          "video_comments": 0,
           "video_favorites": 0,
-          "video_reach": 300,
+          "video_reach": 0,
           "video_new_followers": 0,
-          "video_average_time_watched": 10.54,
-          "video_duration": 20.5,
-          "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663063727142456596?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 369
+          "video_average_time_watched": 12.58,
+          "video_duration": 29.034,
+          "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7664917951795055893?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
+          "score": 371
         },
         {
           "video_id": "7655270458203573525",
           "username": "fiotomotiff",
           "video_caption": "kalian tim cwk apa cwk? #fajarindahotomotif #fajarindah #karat #cb #cbindonesia",
           "video_create_datetime": "2026-06-25T12:00:00",
-          "video_views_count": 353,
+          "video_views_count": 354,
           "video_likes": 9,
           "video_shares": 0,
           "video_comments": 0,
@@ -5355,31 +5398,14 @@
           "video_average_time_watched": 8.22,
           "video_duration": 12.834,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7655270458203573525?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 362
-        },
-        {
-          "video_id": "7664917951795055893",
-          "username": "fiotomotiff",
-          "video_caption": "kalo ngantuk tidur kak #fajarindah #fajarindahotomotif #budakcorporate #honda #cbindonesia",
-          "video_create_datetime": "2026-07-21T11:00:00",
-          "video_views_count": 313,
-          "video_likes": 11,
-          "video_shares": 2,
-          "video_comments": 0,
-          "video_favorites": 0,
-          "video_reach": 0,
-          "video_new_followers": 0,
-          "video_average_time_watched": 12.96,
-          "video_duration": 29.034,
-          "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7664917951795055893?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 348
+          "score": 363
         },
         {
           "video_id": "7662321294435749140",
           "username": "fiotomotiff",
           "video_caption": "blur nya minus berapa ini #fajarindah #fajarindahotomotif #blur #honda #cbindonesia",
           "video_create_datetime": "2026-07-14T10:00:05",
-          "video_views_count": 324,
+          "video_views_count": 328,
           "video_likes": 6,
           "video_shares": 0,
           "video_comments": 0,
@@ -5389,14 +5415,14 @@
           "video_average_time_watched": 5.38,
           "video_duration": 13.834,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7662321294435749140?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 330
+          "score": 334
         },
         {
           "video_id": "7658578112057281813",
           "username": "fiotomotiff",
           "video_caption": "tangannya di jual terpisah  #fajarindah #fajarindahotomotif #honda #win #packing",
           "video_create_datetime": "2026-07-05T10:00:00",
-          "video_views_count": 322,
+          "video_views_count": 323,
           "video_likes": 5,
           "video_shares": 0,
           "video_comments": 0,
@@ -5406,14 +5432,14 @@
           "video_average_time_watched": 10.06,
           "video_duration": 14.954,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7658578112057281813?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 327
+          "score": 328
         },
         {
           "video_id": "7660088134910201109",
           "username": "fiotomotiff",
           "video_caption": "proses yang mana dulu nih jadinya... #fajarindah #fajarindahotomotif #honda #cb #cbindonesia",
           "video_create_datetime": "2026-07-08T10:00:00",
-          "video_views_count": 298,
+          "video_views_count": 302,
           "video_likes": 3,
           "video_shares": 0,
           "video_comments": 0,
@@ -5423,14 +5449,14 @@
           "video_average_time_watched": 4.41,
           "video_duration": 15.067,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7660088134910201109?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 301
+          "score": 305
         },
         {
           "video_id": "7659717696753388821",
           "username": "fiotomotiff",
           "video_caption": "udah dibilangin juga #fajarindah #fajarindahotomotif #honda #win #hondawin",
           "video_create_datetime": "2026-07-07T10:00:00",
-          "video_views_count": 292,
+          "video_views_count": 297,
           "video_likes": 2,
           "video_shares": 0,
           "video_comments": 0,
@@ -5440,24 +5466,24 @@
           "video_average_time_watched": 9.04,
           "video_duration": 17.434,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7659717696753388821?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 294
+          "score": 299
         },
         {
           "video_id": "7663762347655286037",
           "username": "fiotomotiff",
           "video_caption": "ngeluh disamping bos #fajarindah #fajarindahotomotif #budakcorporate #honda #astreagrandindonesia",
           "video_create_datetime": "2026-07-19T11:00:00",
-          "video_views_count": 266,
+          "video_views_count": 275,
           "video_likes": 6,
           "video_shares": 0,
           "video_comments": 0,
           "video_favorites": 0,
           "video_reach": 218,
           "video_new_followers": 0,
-          "video_average_time_watched": 9.77,
+          "video_average_time_watched": 9.86,
           "video_duration": 26.034,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7663762347655286037?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 272
+          "score": 281
         },
         {
           "video_id": "7654517844268354837",
@@ -5481,7 +5507,7 @@
           "username": "fiotomotiff",
           "video_caption": "pegangan apa ya biar ga pusing #fajarindah #fajarindahotomotif #honda #cbindonesia #peganganpintu",
           "video_create_datetime": "2026-07-01T10:01:48",
-          "video_views_count": 243,
+          "video_views_count": 244,
           "video_likes": 3,
           "video_shares": 0,
           "video_comments": 0,
@@ -5491,14 +5517,14 @@
           "video_average_time_watched": 7.92,
           "video_duration": 12.567,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7657497637226040597?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 246
+          "score": 247
         },
         {
           "video_id": "7655956451453635860",
           "username": "fiotomotiff",
           "video_caption": "ada yang digital marketing juga ga disini? #fajarindah #fajarindahotomotif #digitalmarketing #cbindonesia #cb125se",
           "video_create_datetime": "2026-06-27T10:00:00",
-          "video_views_count": 219,
+          "video_views_count": 220,
           "video_likes": 3,
           "video_shares": 0,
           "video_comments": 0,
@@ -5508,7 +5534,7 @@
           "video_average_time_watched": 7.02,
           "video_duration": 25.867,
           "video_share_url": "https://www.tiktok.com/@fiotomotiff/video/7655956451453635860?utm_campaign=tt4d_open_api&utm_source=7288613544411529218",
-          "score": 222
+          "score": 223
         },
         {
           "video_id": "7654883133979888917",
@@ -5546,27 +5572,27 @@
         }
       ],
       "m": {
-        "views": 47204,
-        "viewsGrowth": -56.38104214601872,
+        "views": 49596,
+        "viewsGrowth": -54.17070939483825,
         "reach": 0,
         "reachGrowth": null,
-        "likes": 752,
-        "likesGrowth": -78.58160068356594,
+        "likes": 789,
+        "likesGrowth": -77.527769866135,
         "savesOrFav": 1,
         "savesGrowth": -99.66996699669967,
-        "shares": 70,
-        "sharesGrowth": -81.57894736842105,
+        "shares": 71,
+        "sharesGrowth": -81.3157894736842,
         "comments": 8,
         "commentsGrowth": -83.6734693877551,
-        "newFollowers": 19,
-        "newFollowersGrowth": -77.38095238095238,
-        "er": 1.7583255656300316,
+        "newFollowers": 23,
+        "newFollowersGrowth": -72.61904761904762,
+        "er": 1.7501411404145497,
         "erPrev": 3.6407654848039623,
         "benchmark": 1.37,
-        "vsBenchmarkPts": 0.3883255656300315,
-        "avgViewPerDay": 1627.7241379310344,
-        "viralScore": 6515,
-        "viralViews": 6497
+        "vsBenchmarkPts": 0.3801411404145496,
+        "avgViewPerDay": 1653.2,
+        "viralScore": 6907,
+        "viralViews": 6888
       }
     }
   }
